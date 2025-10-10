@@ -14,9 +14,9 @@ export default function Header() {
           <Image
             src="/magnaroma.svg"
             alt="Magna Roma Trattoria & Pinseria"
-            width={140}
-            height={50}
-            className="h-10 md:h-12 w-auto"
+            width={180}
+            height={60}
+            className="h-12 md:h-14 w-auto"
             priority
           />
           <LanguageSwitcher />
