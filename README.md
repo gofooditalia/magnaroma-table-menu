@@ -1,36 +1,207 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🍝 Magna Roma Trattoria - Menu Digitale
 
-## Getting Started
+Menu digitale responsive per la Magna Roma Trattoria, accessibile tramite QR code con immagini grandi e appetitose di ogni piatto.
 
-First, run the development server:
+## 🎨 Features
+
+- **📱 Mobile-First Design**: Ottimizzato per smartphone e tablet
+- **🌍 Bilingue**: Supporto italiano e inglese con switch istantaneo
+- **🖼️ Immagini Dominanti**: Ogni piatto con foto grande e ben visibile (aspect ratio 4:3)
+- **⚡ Performance**: Next.js 15 con ottimizzazione automatica delle immagini
+- **🎯 Navigazione Intuitiva**: Categorie sticky con scroll smooth
+- **♿ Accessibile**: Semantic HTML e contrasti adeguati
+- **🏷️ Info Allergeni**: Badge chiari per allergeni comuni
+
+## 🚀 Quick Start
+
+### Installazione
+
+```bash
+npm install
+```
+
+### Sviluppo
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Apri [http://localhost:3000](http://localhost:3000) nel browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Build Produzione
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+npm start
+```
 
-## Learn More
+## 📁 Struttura Progetto
 
-To learn more about Next.js, take a look at the following resources:
+```
+magnaroma-table-menu/
+├── src/
+│   ├── app/
+│   │   ├── layout.tsx          # Layout principale con LanguageProvider
+│   │   ├── page.tsx            # Homepage con menu completo
+│   │   └── globals.css         # Stili globali
+│   ├── components/
+│   │   ├── Header.tsx          # Header con logo e language switcher
+│   │   ├── CategoryNav.tsx     # Navigazione categorie
+│   │   ├── DishCard.tsx        # Card singolo piatto
+│   │   ├── LanguageSwitcher.tsx # Toggle IT/EN
+│   │   └── ScrollToTop.tsx     # Bottone scroll to top
+│   ├── contexts/
+│   │   └── LanguageContext.tsx # Context per gestione lingua
+│   ├── hooks/
+│   │   └── useTranslation.ts   # Hook per traduzioni
+│   ├── types/
+│   │   └── menu.ts             # TypeScript interfaces
+│   └── data/
+│       └── menu.json           # Dati del menu
+└── public/
+    └── images/
+        └── dishes/             # Immagini piatti
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🖼️ Gestione Immagini
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Aggiungere le Foto dei Piatti
 
-## Deploy on Vercel
+1. Posiziona le tue foto professionali in `/public/images/dishes/`
+2. Nomina i file esattamente come nel `menu.json` (es: `carbonara.jpg`)
+3. **Formato consigliato**: WebP o JPEG ottimizzato
+4. **Dimensioni**: Max 1200px di larghezza
+5. **Aspect Ratio**: 4:3 o 16:9 per risultati ottimali
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Vedi `/public/images/dishes/README.md` per la lista completa dei file necessari.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Ottimizzazione Immagini
+
+Next.js ottimizza automaticamente le immagini con:
+- Lazy loading
+- Responsive images
+- Modern formats (WebP)
+- Dimensioni ottimizzate per device
+
+## 📝 Modificare il Menu
+
+Modifica il file `/src/data/menu.json` per:
+- Aggiungere/rimuovere piatti
+- Modificare prezzi
+- Aggiornare descrizioni
+- Gestire allergeni
+
+### Struttura Piatto
+
+```json
+{
+  "id": "carbonara",
+  "name": {
+    "it": "Carbonara",
+    "en": "Carbonara"
+  },
+  "description": {
+    "it": "Descrizione italiana",
+    "en": "English description"
+  },
+  "price": "14.00",
+  "image": "/images/dishes/carbonara.jpg",
+  "allergens": ["glutine", "uova", "lattosio"]
+}
+```
+
+### Allergeni Supportati
+
+- `glutine` (Gluten)
+- `lattosio` (Lactose)
+- `uova` (Eggs)
+- `pesce` (Fish)
+- `frutta-secca` (Nuts)
+- `sedano` (Celery)
+
+## 🎨 Design System
+
+### Colori
+
+- **Rosso Roma**: `#8B0000` (accenti, bottoni)
+- **Oro/Ocra**: `#D4AF37` (dettagli, badge prezzi)
+- **Bianco/Crema**: `#FFF8E7` (background)
+- **Grigio/Nero**: Testi
+
+### Tipografia
+
+- **Headings**: Playfair Display (serif elegante)
+- **Body**: Inter (sans-serif leggibile)
+
+## 📱 QR Code
+
+Per generare il QR code:
+
+1. Deploya l'applicazione (Vercel, Netlify, ecc.)
+2. Usa il link di produzione per generare un QR code
+3. Stampa il QR code e posizionalo sui tavoli
+
+### Servizi QR Code Consigliati
+
+- [QR Code Generator](https://www.qr-code-generator.com/)
+- [QRCode Monkey](https://www.qrcode-monkey.com/)
+
+## 🌐 Deploy
+
+### Vercel (Consigliato)
+
+```bash
+npm install -g vercel
+vercel
+```
+
+### Altre Opzioni
+
+- Netlify
+- Railway
+- Render
+- AWS Amplify
+
+## 🛠️ Stack Tecnologico
+
+- **Framework**: Next.js 15 (App Router)
+- **React**: 19.1.0
+- **TypeScript**: 5.x
+- **Styling**: Tailwind CSS 4
+- **Fonts**: Google Fonts (Inter, Playfair Display)
+
+## 📜 License & Usage
+
+This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
+
+### ⚠️ Important Notes
+
+- **Code**: Open source and free to use under MIT License
+- **Brand Assets**: Magna Roma name, logo, and branding are © Magna Roma Trattoria
+- **Content**: Menu items, descriptions, and images are © Magna Roma Trattoria
+- **Commercial Use**: You can use this code for your restaurant, but not the Magna Roma brand
+
+### 🙏 Attribution
+
+If you use this code for your restaurant:
+- A link back to this repo is appreciated (but not required)
+- Consider starring ⭐ the project
+- Share your implementation - we'd love to see it!
+
+### 🤝 Contributing
+
+While this was built for a specific client, improvements and bug fixes are welcome!
+Feel free to:
+- Open issues for bugs
+- Submit PRs for enhancements
+- Fork for your own restaurant
+
+**Built with ❤️ for the food industry**
+
+## 🤝 Supporto
+
+Per domande o supporto, contatta il team di sviluppo.
+
+---
+
+**Magna Roma Trattoria** - Autentica Cucina Romana 🍝

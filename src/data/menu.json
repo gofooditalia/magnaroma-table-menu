@@ -1,0 +1,328 @@
+{
+  "categories": [
+    {
+      "id": "antipasti",
+      "name": {
+        "it": "Antipasti",
+        "en": "Appetizers"
+      },
+      "dishes": [
+        {
+          "id": "supplì",
+          "name": {
+            "it": "Supplì al Telefono",
+            "en": "Roman Rice Croquettes"
+          },
+          "description": {
+            "it": "Croccanti crocchette di riso ripiene di mozzarella filante e ragù",
+            "en": "Crispy rice croquettes filled with melted mozzarella and meat sauce"
+          },
+          "price": "8.00",
+          "image": "/images/dishes/suppli.jpg",
+          "allergens": ["glutine", "lattosio"]
+        },
+        {
+          "id": "bruschette",
+          "name": {
+            "it": "Bruschette Miste",
+            "en": "Mixed Bruschetta"
+          },
+          "description": {
+            "it": "Selezione di bruschette con pomodoro fresco, stracciatella e acciughe",
+            "en": "Selection of bruschetta with fresh tomatoes, stracciatella cheese and anchovies"
+          },
+          "price": "9.00",
+          "image": "/images/dishes/bruschette.jpg",
+          "allergens": ["glutine", "lattosio"]
+        },
+        {
+          "id": "fiori-zucca",
+          "name": {
+            "it": "Fiori di Zucca Fritti",
+            "en": "Fried Zucchini Flowers"
+          },
+          "description": {
+            "it": "Fiori di zucca ripieni di mozzarella e alici, fritti in pastella croccante",
+            "en": "Zucchini flowers stuffed with mozzarella and anchovies, fried in crispy batter"
+          },
+          "price": "10.00",
+          "image": "/images/dishes/fiori-zucca.jpg",
+          "allergens": ["glutine", "lattosio", "pesce"]
+        }
+      ]
+    },
+    {
+      "id": "primi",
+      "name": {
+        "it": "Primi Piatti",
+        "en": "First Courses"
+      },
+      "dishes": [
+        {
+          "id": "carbonara",
+          "name": {
+            "it": "Carbonara",
+            "en": "Carbonara"
+          },
+          "description": {
+            "it": "La vera carbonara romana con guanciale croccante, pecorino e tuorlo d'uovo",
+            "en": "Traditional Roman carbonara with crispy guanciale, pecorino cheese and egg yolk"
+          },
+          "price": "14.00",
+          "image": "/images/dishes/carbonara.jpg",
+          "allergens": ["glutine", "uova", "lattosio"]
+        },
+        {
+          "id": "amatriciana",
+          "name": {
+            "it": "Amatriciana",
+            "en": "Amatriciana"
+          },
+          "description": {
+            "it": "Pasta con guanciale croccante, pomodoro San Marzano e pecorino romano",
+            "en": "Pasta with crispy guanciale, San Marzano tomatoes and pecorino romano"
+          },
+          "price": "13.00",
+          "image": "/images/dishes/amatriciana.jpg",
+          "allergens": ["glutine", "lattosio"]
+        },
+        {
+          "id": "cacio-pepe",
+          "name": {
+            "it": "Cacio e Pepe",
+            "en": "Cacio e Pepe"
+          },
+          "description": {
+            "it": "Spaghetti mantecati con pecorino romano e pepe nero macinato al momento",
+            "en": "Spaghetti tossed with pecorino romano cheese and freshly ground black pepper"
+          },
+          "price": "12.00",
+          "image": "/images/dishes/cacio-pepe.jpg",
+          "allergens": ["glutine", "lattosio"]
+        },
+        {
+          "id": "gricia",
+          "name": {
+            "it": "Gricia",
+            "en": "Gricia"
+          },
+          "description": {
+            "it": "Rigatoni con guanciale croccante e pecorino romano DOP",
+            "en": "Rigatoni with crispy guanciale and pecorino romano DOP"
+          },
+          "price": "13.00",
+          "image": "/images/dishes/gricia.jpg",
+          "allergens": ["glutine", "lattosio"]
+        }
+      ]
+    },
+    {
+      "id": "secondi",
+      "name": {
+        "it": "Secondi Piatti",
+        "en": "Main Courses"
+      },
+      "dishes": [
+        {
+          "id": "saltimbocca",
+          "name": {
+            "it": "Saltimbocca alla Romana",
+            "en": "Roman-Style Saltimbocca"
+          },
+          "description": {
+            "it": "Fettine di vitello con prosciutto crudo e salvia, sfumate al vino bianco",
+            "en": "Veal cutlets with prosciutto and sage, deglazed with white wine"
+          },
+          "price": "18.00",
+          "image": "/images/dishes/saltimbocca.jpg"
+        },
+        {
+          "id": "coda-vaccinara",
+          "name": {
+            "it": "Coda alla Vaccinara",
+            "en": "Oxtail Stew"
+          },
+          "description": {
+            "it": "Coda di bue brasata con pomodoro, sedano e pinoli",
+            "en": "Braised oxtail with tomatoes, celery and pine nuts"
+          },
+          "price": "19.00",
+          "image": "/images/dishes/coda-vaccinara.jpg",
+          "allergens": ["sedano", "frutta-secca"]
+        },
+        {
+          "id": "abbacchio",
+          "name": {
+            "it": "Abbacchio alla Scottadito",
+            "en": "Grilled Lamb Chops"
+          },
+          "description": {
+            "it": "Costolette di abbacchio alla griglia con rosmarino e aglio",
+            "en": "Grilled lamb chops with rosemary and garlic"
+          },
+          "price": "20.00",
+          "image": "/images/dishes/abbacchio.jpg"
+        }
+      ]
+    },
+    {
+      "id": "pinse",
+      "name": {
+        "it": "Pinse Romane",
+        "en": "Roman Pinsa"
+      },
+      "dishes": [
+        {
+          "id": "pinsa-margherita",
+          "name": {
+            "it": "Pinsa Margherita",
+            "en": "Margherita Pinsa"
+          },
+          "description": {
+            "it": "Pinsa romana con pomodoro, mozzarella di bufala e basilico",
+            "en": "Roman pinsa with tomato, buffalo mozzarella and basil"
+          },
+          "price": "11.00",
+          "image": "/images/dishes/pinsa-margherita.jpg",
+          "allergens": ["glutine", "lattosio"]
+        },
+        {
+          "id": "pinsa-mortadella",
+          "name": {
+            "it": "Pinsa Mortadella e Pistacchio",
+            "en": "Mortadella and Pistachio Pinsa"
+          },
+          "description": {
+            "it": "Pinsa con mortadella IGP, stracciatella e granella di pistacchio",
+            "en": "Pinsa with IGP mortadella, stracciatella and pistachio crumble"
+          },
+          "price": "13.00",
+          "image": "/images/dishes/pinsa-mortadella.jpg",
+          "allergens": ["glutine", "lattosio", "frutta-secca"]
+        }
+      ]
+    },
+    {
+      "id": "contorni",
+      "name": {
+        "it": "Contorni",
+        "en": "Side Dishes"
+      },
+      "dishes": [
+        {
+          "id": "cicoria",
+          "name": {
+            "it": "Cicoria Ripassata",
+            "en": "Sautéed Chicory"
+          },
+          "description": {
+            "it": "Cicoria ripassata in padella con aglio, olio e peperoncino",
+            "en": "Chicory sautéed with garlic, olive oil and chili pepper"
+          },
+          "price": "5.00",
+          "image": "/images/dishes/cicoria.jpg"
+        },
+        {
+          "id": "patate-forno",
+          "name": {
+            "it": "Patate al Forno",
+            "en": "Roasted Potatoes"
+          },
+          "description": {
+            "it": "Patate al forno croccanti con rosmarino",
+            "en": "Crispy roasted potatoes with rosemary"
+          },
+          "price": "5.00",
+          "image": "/images/dishes/patate-forno.jpg"
+        }
+      ]
+    },
+    {
+      "id": "dolci",
+      "name": {
+        "it": "Dolci",
+        "en": "Desserts"
+      },
+      "dishes": [
+        {
+          "id": "tiramisu",
+          "name": {
+            "it": "Tiramisù",
+            "en": "Tiramisu"
+          },
+          "description": {
+            "it": "Il classico dolce al cucchiaio con savoiardi, mascarpone e caffè",
+            "en": "Classic Italian dessert with ladyfingers, mascarpone and coffee"
+          },
+          "price": "6.00",
+          "image": "/images/dishes/tiramisu.jpg",
+          "allergens": ["glutine", "uova", "lattosio"]
+        },
+        {
+          "id": "panna-cotta",
+          "name": {
+            "it": "Panna Cotta",
+            "en": "Panna Cotta"
+          },
+          "description": {
+            "it": "Panna cotta con coulis ai frutti di bosco",
+            "en": "Panna cotta with berry coulis"
+          },
+          "price": "6.00",
+          "image": "/images/dishes/panna-cotta.jpg",
+          "allergens": ["lattosio"]
+        }
+      ]
+    },
+    {
+      "id": "bevande",
+      "name": {
+        "it": "Bevande",
+        "en": "Beverages"
+      },
+      "dishes": [
+        {
+          "id": "acqua",
+          "name": {
+            "it": "Acqua Naturale/Frizzante",
+            "en": "Still/Sparkling Water"
+          },
+          "description": {
+            "it": "Acqua minerale 1L",
+            "en": "Mineral water 1L"
+          },
+          "price": "3.00",
+          "image": "/images/dishes/acqua.jpg"
+        },
+        {
+          "id": "vino-casa",
+          "name": {
+            "it": "Vino della Casa",
+            "en": "House Wine"
+          },
+          "description": {
+            "it": "Vino rosso o bianco della casa (caraffa 0.5L)",
+            "en": "Red or white house wine (0.5L carafe)"
+          },
+          "price": "8.00",
+          "image": "/images/dishes/vino-casa.jpg"
+        },
+        {
+          "id": "birra",
+          "name": {
+            "it": "Birra alla Spina",
+            "en": "Draft Beer"
+          },
+          "description": {
+            "it": "Birra artigianale italiana (0.4L)",
+            "en": "Italian craft beer (0.4L)"
+          },
+          "price": "5.00",
+          "image": "/images/dishes/birra.jpg",
+          "allergens": ["glutine"]
+        }
+      ]
+    }
+  ]
+}
+
