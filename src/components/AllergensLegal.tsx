@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import { AllergenData } from '@/types/menu';
 import { useTranslation } from '@/hooks/useTranslation';
 
@@ -12,12 +13,16 @@ export default function AllergensLegal({ data }: AllergensLegalProps) {
 
   return (
     <div className="bg-white rounded-xl shadow-lg overflow-hidden max-w-4xl mx-auto">
-      {/* Header con logo stile */}
+      {/* Header con logo ufficiale */}
       <div className="bg-gradient-to-r from-[#8B0000] to-[#6B0000] text-center py-8 px-6">
         <div className="inline-block bg-white/10 backdrop-blur-sm border-2 border-[#D4AF37] rounded-lg px-8 py-6">
-          <h1 className="text-3xl md:text-4xl font-serif font-bold text-[#D4AF37] mb-2">
-            MAGNA ROMA
-          </h1>
+          <Image
+            src="/magnaroma.svg"
+            alt="Magna Roma Logo"
+            width={200}
+            height={60}
+            className="h-16 w-auto mx-auto mb-2 brightness-0 invert"
+          />
           <p className="text-sm text-white/90 uppercase tracking-wider">
             Cucina Romana
           </p>

@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import Link from 'next/link';
 import { useTranslation } from '@/hooks/useTranslation';
 
@@ -21,9 +22,13 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           {/* Brand Section */}
           <div className="text-center md:text-left">
-            <h3 className="text-2xl font-serif font-bold text-[#8B0000] mb-2">
-              Magna Roma
-            </h3>
+            <Image
+              src="/magnaroma.svg"
+              alt="Magna Roma Logo"
+              width={150}
+              height={50}
+              className="h-12 w-auto mx-auto md:mx-0 mb-3"
+            />
             <p className="text-sm text-gray-600 mb-4">
               {language === 'it'
                 ? 'Trattoria & Pinseria'
