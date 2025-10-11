@@ -17,6 +17,7 @@ interface IngredientTooltipProps {
 export default function IngredientTooltip({ term, info }: IngredientTooltipProps) {
   const [isOpen, setIsOpen] = useState(false);
   const [position, setPosition] = useState({ top: 0, left: 0 });
+  const [arrowOffset, setArrowOffset] = useState(50); // Posizione freccia in percentuale
   const [mounted, setMounted] = useState(false);
   const { language } = useTranslation();
   const tooltipRef = useRef<HTMLDivElement>(null);
@@ -38,12 +39,23 @@ export default function IngredientTooltip({ term, info }: IngredientTooltipProps
       }
     };
 
+    const handleResize = () => {
+      // Chiudi il tooltip al resize/rotazione per evitare problemi di posizionamento
+      if (isOpen) {
+        setIsOpen(false);
+      }
+    };
+
     if (isOpen) {
       document.addEventListener('mousedown', handleClickOutside);
+      window.addEventListener('resize', handleResize);
+      window.addEventListener('orientationchange', handleResize);
     }
 
     return () => {
       document.removeEventListener('mousedown', handleClickOutside);
+      window.removeEventListener('resize', handleResize);
+      window.removeEventListener('orientationchange', handleResize);
     };
   }, [isOpen]);
 
@@ -51,10 +63,40 @@ export default function IngredientTooltip({ term, info }: IngredientTooltipProps
     if (!spanRef.current) return;
     
     const rect = spanRef.current.getBoundingClientRect();
+    const tooltipWidth = 224; // 56 * 4 = 224px (w-56 in tailwind)
+    const margin = 16; // Margine di sicurezza dai bordi
+    
+    // Posizione centrale ideale del tooltip
+    const idealLeft = rect.left + rect.width / 2 + window.scrollX;
+    
+    // Calcola i limiti dello schermo
+    const minLeft = margin;
+    const maxLeft = window.innerWidth - tooltipWidth - margin;
+    
+    // Aggiusta la posizione se esce dai bordi
+    let finalLeft = idealLeft;
+    let arrowPos = 50; // Posizione della freccia in percentuale (default: centro)
+    
+    if (idealLeft - tooltipWidth / 2 < minLeft) {
+      // Tooltip esce a sinistra
+      finalLeft = tooltipWidth / 2 + margin;
+      // Calcola dove deve puntare la freccia (offset dall'ideale)
+      arrowPos = ((idealLeft - margin) / tooltipWidth) * 100;
+    } else if (idealLeft + tooltipWidth / 2 > window.innerWidth - margin) {
+      // Tooltip esce a destra
+      finalLeft = window.innerWidth - tooltipWidth / 2 - margin;
+      // Calcola dove deve puntare la freccia
+      arrowPos = ((idealLeft - (window.innerWidth - tooltipWidth - margin)) / tooltipWidth) * 100;
+    }
+    
+    // Limita la freccia tra 10% e 90% per non farla uscire dal tooltip
+    arrowPos = Math.max(10, Math.min(90, arrowPos));
+    
     setPosition({
       top: rect.top + window.scrollY,
-      left: rect.left + rect.width / 2 + window.scrollX,
+      left: finalLeft,
     });
+    setArrowOffset(arrowPos);
     setIsOpen(!isOpen);
   };
 
@@ -69,11 +111,17 @@ export default function IngredientTooltip({ term, info }: IngredientTooltipProps
       }}
       className="w-56 z-[9999] animate-in fade-in slide-in-from-bottom-2 duration-200"
     >
-      {/* Freccia verso il basso */}
-      <div className="absolute top-full left-1/2 transform -translate-x-1/2 -mt-px">
+      {/* Freccia verso il basso - posizionata dinamicamente */}
+      <div 
+        className="absolute top-full transform -translate-x-1/2 -mt-px"
+        style={{ left: `${arrowOffset}%` }}
+      >
         <div className="border-6 border-transparent border-t-white" />
       </div>
-      <div className="absolute top-full left-1/2 transform -translate-x-1/2 -mt-0.5">
+      <div 
+        className="absolute top-full transform -translate-x-1/2 -mt-0.5"
+        style={{ left: `${arrowOffset}%` }}
+      >
         <div className="border-6 border-transparent border-t-[#D4AF37]/20" />
       </div>
 
