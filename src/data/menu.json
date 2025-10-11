@@ -173,32 +173,186 @@
       },
       "dishes": [
         {
-          "id": "pinsa-margherita",
+          "id": "giulio-cesare",
           "name": {
-            "it": "Pinsa Margherita",
-            "en": "Margherita Pinsa"
+            "it": "Giulio Cesare",
+            "en": "Julius Caesar"
           },
           "description": {
-            "it": "Pinsa romana con pomodoro, mozzarella di bufala e basilico",
-            "en": "Roman pinsa with tomato, buffalo mozzarella and basil"
+            "it": "Prosciutto crudo, stracciatella, pomodorini caramellati, miele",
+            "en": "Cured ham, stracciatella cheese, caramelized cherry tomatoes, honey"
           },
-          "price": "11.00",
-          "image": "/images/dishes/pinsa-margherita.jpg",
-          "allergens": ["glutine", "lattosio"]
+          "price": "14.00",
+          "image": "/images/dishes/giulio-cesare.jpg",
+          "allergens": ["glutine", "arachidi", "soia", "lattosio", "senape"]
         },
         {
-          "id": "pinsa-mortadella",
+          "id": "mortazza",
           "name": {
-            "it": "Pinsa Mortadella e Pistacchio",
-            "en": "Mortadella and Pistachio Pinsa"
+            "it": "Mortazza",
+            "en": "Mortazza"
           },
           "description": {
-            "it": "Pinsa con mortadella IGP, stracciatella e granella di pistacchio",
-            "en": "Pinsa with IGP mortadella, stracciatella and pistachio crumble"
+            "it": "Mortadella, burrata, granella di pistacchi",
+            "en": "Mortadella, burrata cheese, pistachio crumble"
           },
           "price": "13.00",
-          "image": "/images/dishes/pinsa-mortadella.jpg",
-          "allergens": ["glutine", "lattosio", "frutta-secca"]
+          "image": "/images/dishes/mortazza.jpg",
+          "allergens": ["glutine", "arachidi", "soia", "lattosio", "frutta-secca", "senape"]
+        },
+        {
+          "id": "romana",
+          "name": {
+            "it": "Romana",
+            "en": "Romana"
+          },
+          "description": {
+            "it": "Salsa di pomodoro, mozzarella fiordilatte, prosciutto cotto, origano",
+            "en": "Tomato sauce, mozzarella, cooked ham, oregano"
+          },
+          "price": "10.00",
+          "image": "/images/dishes/romana.jpg",
+          "allergens": ["glutine", "arachidi", "soia", "lattosio", "senape"]
+        },
+        {
+          "id": "amatriciana-pinsa",
+          "name": {
+            "it": "Amatriciana",
+            "en": "Amatriciana"
+          },
+          "description": {
+            "it": "Salsa di pomodoro, scaglie di pecorino, guanciale croccante, mozzarella fiordilatte, pepe",
+            "en": "Tomato sauce, pecorino flakes, crispy guanciale, mozzarella, pepper"
+          },
+          "price": "11.00",
+          "image": "/images/dishes/amatriciana-pinsa.jpg",
+          "allergens": ["glutine", "arachidi", "soia", "lattosio", "senape"]
+        },
+        {
+          "id": "buciarda",
+          "name": {
+            "it": "Buciarda",
+            "en": "Buciarda"
+          },
+          "description": {
+            "it": "Salsa di pomodoro, mozzarella di bufala, basilico, origano",
+            "en": "Tomato sauce, buffalo mozzarella, basil, oregano"
+          },
+          "price": "10.00",
+          "image": "/images/dishes/buciarda.jpg",
+          "allergens": ["glutine", "arachidi", "soia", "lattosio", "senape"]
+        },
+        {
+          "id": "der-pupone",
+          "name": {
+            "it": "Der Pupone",
+            "en": "Der Pupone"
+          },
+          "description": {
+            "it": "Salsa di pomodoro, pomodorino, mozzarella di bufala, basilico, origano",
+            "en": "Tomato sauce, cherry tomatoes, buffalo mozzarella, basil, oregano"
+          },
+          "price": "11.00",
+          "image": "/images/dishes/der-pupone.jpg",
+          "allergens": ["glutine", "arachidi", "soia", "lattosio", "senape"]
+        },
+        {
+          "id": "bruciacculo",
+          "name": {
+            "it": "Bruciacculo",
+            "en": "Bruciacculo"
+          },
+          "description": {
+            "it": "Salsa di pomodoro, salame piccante, mozzarella fiordilatte, melanzane fritte, scaglie di grana, pomodorino, pepe",
+            "en": "Tomato sauce, spicy salami, mozzarella, fried eggplant, grana flakes, cherry tomatoes, pepper"
+          },
+          "price": "13.00",
+          "image": "/images/dishes/bruciacculo.jpg",
+          "allergens": ["glutine", "arachidi", "soia", "lattosio", "senape"]
+        },
+        {
+          "id": "cuppolone",
+          "name": {
+            "it": "Cuppolone",
+            "en": "Cuppolone"
+          },
+          "description": {
+            "it": "Salsa di pomodoro, mozzarella fiordilatte, porchetta, miele, scaglie di pecorino, pepe",
+            "en": "Tomato sauce, mozzarella, porchetta, honey, pecorino flakes, pepper"
+          },
+          "price": "13.00",
+          "image": "/images/dishes/cuppolone.jpg",
+          "allergens": ["glutine", "arachidi", "soia", "lattosio", "senape"]
+        },
+        {
+          "id": "sora-lella",
+          "name": {
+            "it": "Sora Lella",
+            "en": "Sora Lella"
+          },
+          "description": {
+            "it": "Prosciutto crudo, mozzarella di bufala, crema di fichi",
+            "en": "Cured ham, buffalo mozzarella, fig cream"
+          },
+          "price": "13.00",
+          "image": "/images/dishes/sora-lella.jpg",
+          "allergens": ["glutine", "arachidi", "soia", "lattosio", "senape"]
+        },
+        {
+          "id": "magna-roma",
+          "name": {
+            "it": "Magna Roma'",
+            "en": "Magna Roma'"
+          },
+          "description": {
+            "it": "Mozzarella fiordilatte, crema di carciofi, guanciale croccante, funghi porcini, scaglie di pecorino, pepe, aglio",
+            "en": "Mozzarella, artichoke cream, crispy guanciale, porcini mushrooms, pecorino flakes, pepper, garlic"
+          },
+          "price": "14.00",
+          "image": "/images/dishes/magna-roma.jpg",
+          "allergens": ["glutine", "arachidi", "soia", "lattosio", "senape"]
+        },
+        {
+          "id": "la-caciarona",
+          "name": {
+            "it": "La Caciarona",
+            "en": "La Caciarona"
+          },
+          "description": {
+            "it": "Salsa di pomodoro, prosciutto cotto, funghi champignon, carciofi, mozzarella fiordilatte, olio E.V.O., olive, origano",
+            "en": "Tomato sauce, cooked ham, champignon mushrooms, artichokes, mozzarella, E.V.O. oil, olives, oregano"
+          },
+          "price": "13.00",
+          "image": "/images/dishes/la-caciarona.jpg",
+          "allergens": ["glutine", "arachidi", "soia", "lattosio", "senape"]
+        },
+        {
+          "id": "villa-borghese",
+          "name": {
+            "it": "Villa Borghese",
+            "en": "Villa Borghese"
+          },
+          "description": {
+            "it": "Speck, crema di radicchio, noci, stracciatella",
+            "en": "Speck, radicchio cream, walnuts, stracciatella cheese"
+          },
+          "price": "13.00",
+          "image": "/images/dishes/villa-borghese.jpg",
+          "allergens": ["glutine", "arachidi", "soia", "lattosio", "frutta-secca", "senape", "solfiti"]
+        },
+        {
+          "id": "la-fiatella",
+          "name": {
+            "it": "La Fiatella",
+            "en": "La Fiatella"
+          },
+          "description": {
+            "it": "Salsa di pomodoro, mozzarella fiordilatte, tonno, cipolla, olive, olio E.V.O., pepe",
+            "en": "Tomato sauce, mozzarella, tuna, onion, olives, E.V.O. oil, pepper"
+          },
+          "price": "12.00",
+          "image": "/images/dishes/la-fiatella.jpg",
+          "allergens": ["glutine", "arachidi", "soia", "lattosio", "senape"]
         }
       ]
     },

@@ -26,9 +26,20 @@
 - `coda-vaccinara.jpg`
 - `abbacchio.jpg`
 
-### Pinse
-- `pinsa-margherita.jpg`
-- `pinsa-mortadella.jpg`
+### Pinse (13 pinse)
+- `giulio-cesare.jpg` - Giulio Cesare
+- `mortazza.jpg` - Mortazza
+- `romana.jpg` - Romana
+- `amatriciana-pinsa.jpg` - Amatriciana
+- `buciarda.jpg` - Buciarda
+- `der-pupone.jpg` - Der Pupone
+- `bruciacculo.jpg` - Bruciacculo
+- `cuppolone.jpg` - Cuppolone
+- `sora-lella.jpg` - Sora Lella
+- `magna-roma.jpg` - Magna Roma'
+- `la-caciarona.jpg` - La Caciarona
+- `villa-borghese.jpg` - Villa Borghese
+- `la-fiatella.jpg` - La Fiatella
 
 ### Contorni
 - `cicoria.jpg`

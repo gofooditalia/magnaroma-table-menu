@@ -1,0 +1,16 @@
+<svg width="1200" height="900" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFF8E7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#D4AF37;stop-opacity:0.3" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#grad)"/>
+  <text x="50%" y="50%" font-family="serif" font-size="48" fill="#8B0000" text-anchor="middle" dominant-baseline="middle">
+    Magna Roma
+  </text>
+  <text x="50%" y="58%" font-family="sans-serif" font-size="24" fill="#666" text-anchor="middle" dominant-baseline="middle">
+    Inserisci la tua foto qui
+  </text>
+</svg>
+
