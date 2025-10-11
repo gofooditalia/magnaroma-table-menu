@@ -4,6 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { Dish } from '@/types/menu';
 import { useTranslation } from '@/hooks/useTranslation';
+import { useState } from 'react';
 
 interface DishCardProps {
   dish: Dish;
@@ -20,17 +21,20 @@ const allergenTranslations: Record<string, { it: string; en: string }> = {
 
 export default function DishCard({ dish }: DishCardProps) {
   const { t, language } = useTranslation();
+  const [imageError, setImageError] = useState(false);
+  const placeholderImage = '/images/dishes/dish_placeholder.svg';
 
   return (
     <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 hover:-translate-y-1">
       <div className="relative aspect-[4/3] w-full overflow-hidden bg-gradient-to-br from-[#FFF8E7] to-[#D4AF37]/20">
         <Image
-          src={dish.image}
+          src={imageError ? placeholderImage : dish.image}
           alt={t(dish.name)}
           fill
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-          className="object-cover hover:scale-105 transition-transform duration-500"
+          className={`${imageError ? 'object-contain p-8' : 'object-cover'} hover:scale-105 transition-transform duration-500`}
           priority={false}
+          onError={() => setImageError(true)}
         />
         {/* Price badge */}
         <div className="absolute top-4 right-4 bg-gradient-to-r from-[#D4AF37] to-[#C4A037] text-white px-4 py-2 rounded-full shadow-lg backdrop-blur-sm">
