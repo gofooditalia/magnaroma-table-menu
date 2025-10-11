@@ -703,6 +703,116 @@
           "price": "28.00",
           "image": "/images/dishes/gran-tagliere-casa.jpg",
           "allergens": ["glutine", "lattosio", "solfiti"]
+        },
+        {
+          "id": "spadellata-salsiccia-patate",
+          "name": {
+            "it": "Spadellata di Salsiccia e Patate",
+            "en": "Sausage and Potatoes Pan"
+          },
+          "description": {
+            "it": "Salsiccia, patate, cipolla, rosmarino, sale, pepe, olio E.V.O.",
+            "en": "Sausage, potatoes, onion, rosemary, salt, pepper, EVO oil"
+          },
+          "price": "12.00",
+          "image": "/images/dishes/spadellata-salsiccia-patate.jpg"
+        },
+        {
+          "id": "baccala-giudia",
+          "name": {
+            "it": "Baccalà alla Giudia",
+            "en": "Jewish-Style Cod"
+          },
+          "description": {
+            "it": "Baccalà cotto in salsa di pomodoro, pomodorini, peperoncino, menta, prezzemolo, aglio, olio E.V.O.",
+            "en": "Cod cooked in tomato sauce, cherry tomatoes, chili pepper, mint, parsley, garlic, EVO oil"
+          },
+          "price": "14.00",
+          "image": "/images/dishes/baccala-giudia.jpg",
+          "allergens": ["glutine", "pesce"]
+        },
+        {
+          "id": "carne-picchiapo",
+          "name": {
+            "it": "Carne alla Picchiapo",
+            "en": "Picchiapo-Style Meat"
+          },
+          "description": {
+            "it": "Carne di manzo, salsa di pomodoro, vino bianco, cipolla, olio E.V.O., menta, peperoncino",
+            "en": "Beef, tomato sauce, white wine, onion, EVO oil, mint, chili pepper"
+          },
+          "price": "12.00",
+          "image": "/images/dishes/carne-picchiapo.jpg",
+          "allergens": ["solfiti"]
+        },
+        {
+          "id": "tagliata-filetto",
+          "name": {
+            "it": "Tagliata di Filetto",
+            "en": "Sliced Beef Fillet"
+          },
+          "description": {
+            "it": "Tagliata di filetto di manzo all'aceto balsamico o al rosmarino, con contorno di patate al forno, pepe",
+            "en": "Sliced beef fillet with balsamic vinegar or rosemary, with roasted potatoes, pepper"
+          },
+          "price": "20.00",
+          "image": "/images/dishes/tagliata-filetto.jpg",
+          "allergens": ["solfiti"]
+        },
+        {
+          "id": "calamaro-arrosto",
+          "name": {
+            "it": "Calamaro Arrosto",
+            "en": "Roasted Squid"
+          },
+          "description": {
+            "it": "Calamaro arrostito al salmoriglio con insalarina e patate al forno",
+            "en": "Roasted squid with salmoriglio sauce, salad and roasted potatoes"
+          },
+          "price": "16.00",
+          "image": "/images/dishes/calamaro-arrosto.jpg",
+          "allergens": ["pesce"]
+        },
+        {
+          "id": "filetto-funghi",
+          "name": {
+            "it": "Filetto ai Funghi",
+            "en": "Beef Fillet with Mushrooms"
+          },
+          "description": {
+            "it": "Filetto, funghi champignon, burro, farina, pepe, sfumato con sambuca romana",
+            "en": "Beef fillet, champignon mushrooms, butter, flour, pepper, deglazed with Roman sambuca"
+          },
+          "price": "22.00",
+          "image": "/images/dishes/filetto-funghi.jpg",
+          "allergens": ["glutine", "lattosio", "solfiti"]
+        },
+        {
+          "id": "bistecca-manzo",
+          "name": {
+            "it": "Bistecca di Manzo",
+            "en": "Beef Steak"
+          },
+          "description": {
+            "it": "Bistecca di manzo ai ferri o panata",
+            "en": "Grilled or breaded beef steak"
+          },
+          "price": "14.00",
+          "image": "/images/dishes/bistecca-manzo.jpg"
+        },
+        {
+          "id": "petto-pollo",
+          "name": {
+            "it": "Petto di Pollo",
+            "en": "Chicken Breast"
+          },
+          "description": {
+            "it": "Petto di pollo ai ferri, panato o cotoletta",
+            "en": "Grilled, breaded or cutlet chicken breast"
+          },
+          "price": "10.00",
+          "image": "/images/dishes/petto-pollo.jpg",
+          "allergens": ["glutine", "uova"]
         }
       ]
     },
