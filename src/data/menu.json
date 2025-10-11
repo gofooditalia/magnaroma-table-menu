@@ -22,18 +22,60 @@
           "allergens": ["glutine", "lattosio"]
         },
         {
-          "id": "bruschette",
+          "id": "bruschetta-tradizionale",
           "name": {
-            "it": "Bruschette Miste",
-            "en": "Mixed Bruschetta"
+            "it": "Bruschetta Tradizionale",
+            "en": "Traditional Bruschetta"
           },
           "description": {
-            "it": "Selezione di bruschette con pomodoro fresco, stracciatella e acciughe",
-            "en": "Selection of bruschetta with fresh tomatoes, stracciatella cheese and anchovies"
+            "it": "Pomodoro a dadini, aglio, olio EVO, sale, basilico, pepe",
+            "en": "Diced tomatoes, garlic, EVO oil, salt, basil, pepper"
           },
-          "price": "9.00",
-          "image": "/images/dishes/bruschette.jpg",
-          "allergens": ["glutine", "lattosio"]
+          "price": "5.50",
+          "image": "/images/dishes/bruschetta-tradizionale.jpg",
+          "allergens": ["glutine"]
+        },
+        {
+          "id": "bruschetta-lardo-miele",
+          "name": {
+            "it": "Lardo e Miele",
+            "en": "Lardo and Honey"
+          },
+          "description": {
+            "it": "Lardo pancettato, miele, rosmarino",
+            "en": "Bacon lardo, honey, rosemary"
+          },
+          "price": "6.50",
+          "image": "/images/dishes/bruschetta-lardo-miele.jpg",
+          "allergens": ["glutine"]
+        },
+        {
+          "id": "bruschetta-stracciatella-alici",
+          "name": {
+            "it": "Stracciatella e Alici",
+            "en": "Stracciatella and Anchovies"
+          },
+          "description": {
+            "it": "Stracciatella, alici, scorza di limone",
+            "en": "Stracciatella cheese, anchovies, lemon zest"
+          },
+          "price": "6.50",
+          "image": "/images/dishes/bruschetta-stracciatella-alici.jpg",
+          "allergens": ["glutine", "pesce", "lattosio"]
+        },
+        {
+          "id": "bruschetta-salmone-rucola",
+          "name": {
+            "it": "Salmone e Rucola",
+            "en": "Salmon and Arugula"
+          },
+          "description": {
+            "it": "Salmone, rucola, stracciatella, olio EVO, pepe",
+            "en": "Salmon, arugula, stracciatella cheese, EVO oil, pepper"
+          },
+          "price": "7.50",
+          "image": "/images/dishes/bruschetta-salmone-rucola.jpg",
+          "allergens": ["glutine", "pesce", "lattosio"]
         },
         {
           "id": "fiori-zucca",

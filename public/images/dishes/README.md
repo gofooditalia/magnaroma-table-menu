@@ -11,9 +11,14 @@
 ## Lista file necessari / Required files:
 
 ### Antipasti
-- `suppli.jpg`
-- `bruschette.jpg`
-- `fiori-zucca.jpg`
+- `suppli.jpg` - Supplì al Telefono
+
+**Bruschette (4):**
+- `bruschetta-tradizionale.jpg` - Bruschetta Tradizionale
+- `bruschetta-lardo-miele.jpg` - Lardo e Miele
+- `bruschetta-stracciatella-alici.jpg` - Stracciatella e Alici
+- `bruschetta-salmone-rucola.jpg` - Salmone e Rucola
+- `fiori-zucca.jpg` - Fiori di Zucca Fritti
 
 ### Primi
 - `carbonara.jpg`
