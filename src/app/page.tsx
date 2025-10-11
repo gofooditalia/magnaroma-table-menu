@@ -6,8 +6,10 @@ import CategoryNav from '@/components/CategoryNav';
 import DishCard from '@/components/DishCard';
 import ScrollToTop from '@/components/ScrollToTop';
 import Footer from '@/components/Footer';
+import InfoBox from '@/components/InfoBox';
 import { useTranslation } from '@/hooks/useTranslation';
 import menuData from '@/data/menu.json';
+import allergensData from '@/data/allergens.json';
 import { MenuData } from '@/types/menu';
 
 export default function Home() {
@@ -94,6 +96,15 @@ export default function Home() {
               </h3>
               <div className="h-0.5 md:h-1 flex-grow bg-gradient-to-r from-transparent via-[#D4AF37] to-transparent"></div>
             </div>
+
+            {/* Info box for Pinse Romane */}
+            {category.id === 'pinse' && (
+              <InfoBox
+                title={language === 'it' ? 'Informazioni sulle Basi' : 'Information about Bases'}
+                content={allergensData.note[language]}
+                type="note"
+              />
+            )}
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 md:gap-6 lg:gap-8">
               {category.dishes.map((dish) => (
