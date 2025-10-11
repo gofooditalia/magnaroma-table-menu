@@ -133,20 +133,6 @@
           "allergens": ["sedano", "solfiti"]
         },
         {
-          "id": "fiori-zucca",
-          "name": {
-            "it": "Fiori di Zucca Fritti",
-            "en": "Fried Zucchini Flowers"
-          },
-          "description": {
-            "it": "Fiori di zucca ripieni di mozzarella e alici, fritti in pastella croccante",
-            "en": "Zucchini flowers stuffed with mozzarella and anchovies, fried in crispy batter"
-          },
-          "price": "10.00",
-          "image": "/images/dishes/fiori-zucca.jpg",
-          "allergens": ["glutine", "lattosio", "pesce"]
-        },
-        {
           "id": "baccala-pastella",
           "name": {
             "it": "Filetti di Baccalà in Pastella",
