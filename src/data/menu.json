@@ -1043,6 +1043,42 @@
       ]
     },
     {
+      "id": "insalate",
+      "name": {
+        "it": "Insalate",
+        "en": "Salads"
+      },
+      "dishes": [
+        {
+          "id": "insalatona-casa",
+          "name": {
+            "it": "Insalatona della Casa",
+            "en": "House Large Salad"
+          },
+          "description": {
+            "it": "Pomodorini, tonno, rucola, mais, olive, noci, iceberg, mozzarella fiordilatte, uova sode (altri ingredienti su richiesta)",
+            "en": "Cherry tomatoes, tuna, arugula, corn, olives, walnuts, iceberg, mozzarella, hard-boiled eggs (other ingredients on request)"
+          },
+          "price": "10.00",
+          "image": "/images/dishes/insalatona-casa.jpg",
+          "allergens": ["uova", "pesce", "lattosio", "frutta-secca"]
+        },
+        {
+          "id": "insalata-mista",
+          "name": {
+            "it": "Insalata Mista",
+            "en": "Mixed Salad"
+          },
+          "description": {
+            "it": "Iceberg, rucola e pomodorini",
+            "en": "Iceberg, arugula and cherry tomatoes"
+          },
+          "price": "6.00",
+          "image": "/images/dishes/insalata-mista.jpg"
+        }
+      ]
+    },
+    {
       "id": "dolci",
       "name": {
         "it": "Dolci",
