@@ -490,6 +490,20 @@
           "price": "11.00",
           "image": "/images/dishes/tonnarello-sora-norma.jpg",
           "allergens": ["glutine", "lattosio"]
+        },
+        {
+          "id": "fettuccine-magnona",
+          "name": {
+            "it": "Fettuccine alla Magnona",
+            "en": "Fettuccine alla Magnona"
+          },
+          "description": {
+            "it": "Tritato di manzo e maiale, cipolla, sedano, carote, salsa di pomodoro, funghi champignon, pepe, vino rosso",
+            "en": "Beef and pork mince, onion, celery, carrots, tomato sauce, champignon mushrooms, pepper, red wine"
+          },
+          "price": "14.00",
+          "image": "/images/dishes/fettuccine-magnona.jpg",
+          "allergens": ["glutine", "lattosio", "sedano", "solfiti"]
         }
       ]
     },
