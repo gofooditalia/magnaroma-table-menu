@@ -396,6 +396,85 @@
       ]
     },
     {
+      "id": "primi-tradizione",
+      "name": {
+        "it": "I Primi della Tradizione",
+        "en": "Traditional First Courses"
+      },
+      "dishes": [
+        {
+          "id": "tonnarello-cacio-pepe",
+          "name": {
+            "it": "Tonnarello Cacio e Pepe",
+            "en": "Tonnarello Cacio e Pepe"
+          },
+          "description": {
+            "it": "Pecorino, pepe, serviti in cialda di pecorino",
+            "en": "Pecorino cheese, pepper, served in a pecorino wafer"
+          },
+          "price": "12.50",
+          "image": "/images/dishes/tonnarello-cacio-pepe.jpg",
+          "allergens": ["glutine", "lattosio"]
+        },
+        {
+          "id": "tonnarello-carbonara",
+          "name": {
+            "it": "Tonnarello alla Carbonara",
+            "en": "Tonnarello Carbonara"
+          },
+          "description": {
+            "it": "Guanciale, uova pastorizzate, pecorino, pepe, serviti in cialda di pecorino",
+            "en": "Guanciale, pasteurized eggs, pecorino cheese, pepper, served in a pecorino wafer"
+          },
+          "price": "12.50",
+          "image": "/images/dishes/tonnarello-carbonara.jpg",
+          "allergens": ["glutine", "uova", "lattosio"]
+        },
+        {
+          "id": "tonnarello-amatriciana",
+          "name": {
+            "it": "Tonnarello alla Amatriciana",
+            "en": "Tonnarello Amatriciana"
+          },
+          "description": {
+            "it": "Salsa di pomodoro, guanciale, pecorino, pepe",
+            "en": "Tomato sauce, guanciale, pecorino cheese, pepper"
+          },
+          "price": "12.50",
+          "image": "/images/dishes/tonnarello-amatriciana.jpg",
+          "allergens": ["glutine", "lattosio", "solfiti"]
+        },
+        {
+          "id": "tonnarello-gricia",
+          "name": {
+            "it": "Tonnarello alla Gricia",
+            "en": "Tonnarello Gricia"
+          },
+          "description": {
+            "it": "Guanciale, vino bianco, pecorino, pepe",
+            "en": "Guanciale, white wine, pecorino cheese, pepper"
+          },
+          "price": "12.50",
+          "image": "/images/dishes/tonnarello-gricia.jpg",
+          "allergens": ["glutine", "lattosio", "solfiti"]
+        },
+        {
+          "id": "bis-tradizione",
+          "name": {
+            "it": "Bis della Tradizione",
+            "en": "Traditional Duo"
+          },
+          "description": {
+            "it": "Due tipologie di pasta a scelta tra i primi della tradizione, servite nello stesso piatto - Minimo per due persone",
+            "en": "Two types of pasta to choose from traditional first courses, served on the same plate - Minimum for two people"
+          },
+          "price": "14.00",
+          "image": "/images/dishes/bis-tradizione.jpg",
+          "allergens": ["glutine", "uova", "lattosio", "solfiti"]
+        }
+      ]
+    },
+    {
       "id": "secondi",
       "name": {
         "it": "Secondi Piatti",
