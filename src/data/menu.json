@@ -1162,6 +1162,197 @@
       ]
     },
     {
+      "id": "bere-casa",
+      "name": {
+        "it": "Il Bere della Casa",
+        "en": "House Drinks"
+      },
+      "dishes": [
+        {
+          "id": "vino-rosso-375",
+          "name": {
+            "it": "Vino Rosso Magna Romā 375ml",
+            "en": "Red Wine Magna Romā 375ml"
+          },
+          "description": {
+            "it": "Vino della casa 'Il Rosso' - Per una scelta completa, consulta la nostra carta dei vini",
+            "en": "House wine 'Il Rosso' - For a complete selection, consult our wine list"
+          },
+          "price": "6.00",
+          "image": "/images/dishes/vino-rosso-375.jpg",
+          "allergens": ["solfiti"]
+        },
+        {
+          "id": "vino-bianco-375",
+          "name": {
+            "it": "Vino Bianco Magna Romā 375ml",
+            "en": "White Wine Magna Romā 375ml"
+          },
+          "description": {
+            "it": "Vino della casa 'Il Bianco' - Per una scelta completa, consulta la nostra carta dei vini",
+            "en": "House wine 'Il Bianco' - For a complete selection, consult our wine list"
+          },
+          "price": "6.00",
+          "image": "/images/dishes/vino-bianco-375.jpg",
+          "allergens": ["solfiti"]
+        },
+        {
+          "id": "vino-rosso-750",
+          "name": {
+            "it": "Vino Rosso Magna Romā 750ml",
+            "en": "Red Wine Magna Romā 750ml"
+          },
+          "description": {
+            "it": "Vino della casa 'Il Rosso' - Per una scelta completa, consulta la nostra carta dei vini",
+            "en": "House wine 'Il Rosso' - For a complete selection, consult our wine list"
+          },
+          "price": "10.00",
+          "image": "/images/dishes/vino-rosso-750.jpg",
+          "allergens": ["solfiti"]
+        },
+        {
+          "id": "vino-bianco-750",
+          "name": {
+            "it": "Vino Bianco Magna Romā 750ml",
+            "en": "White Wine Magna Romā 750ml"
+          },
+          "description": {
+            "it": "Vino della casa 'Il Bianco' - Per una scelta completa, consulta la nostra carta dei vini",
+            "en": "House wine 'Il Bianco' - For a complete selection, consult our wine list"
+          },
+          "price": "10.00",
+          "image": "/images/dishes/vino-bianco-750.jpg",
+          "allergens": ["solfiti"]
+        },
+        {
+          "id": "vino-frizzante-750",
+          "name": {
+            "it": "Vino Frizzante Magna Romā 750ml",
+            "en": "Sparkling Wine Magna Romā 750ml"
+          },
+          "description": {
+            "it": "Vino della casa 'Il Frizzante' - Per una scelta completa, consulta la nostra carta dei vini",
+            "en": "House wine 'Il Frizzante' - For a complete selection, consult our wine list"
+          },
+          "price": "12.00",
+          "image": "/images/dishes/vino-frizzante-750.jpg",
+          "allergens": ["solfiti"]
+        },
+        {
+          "id": "calice-magnaroma",
+          "name": {
+            "it": "Calice Magna Romā",
+            "en": "Magna Romā Glass"
+          },
+          "description": {
+            "it": "Calice di vino della casa",
+            "en": "House wine glass"
+          },
+          "price": "3.50",
+          "image": "/images/dishes/calice-magnaroma.jpg",
+          "allergens": ["solfiti"]
+        },
+        {
+          "id": "calice-bottiglia",
+          "name": {
+            "it": "Calice in Bottiglia",
+            "en": "Bottled Wine Glass"
+          },
+          "description": {
+            "it": "Calice di vino in bottiglia",
+            "en": "Bottled wine glass"
+          },
+          "price": "5.00",
+          "image": "/images/dishes/calice-bottiglia.jpg",
+          "allergens": ["solfiti"]
+        },
+        {
+          "id": "birra-bionda-20",
+          "name": {
+            "it": "Birra Bionda alla Spina 20cl",
+            "en": "Draft Blonde Beer 20cl"
+          },
+          "description": {
+            "it": "Birra bionda alla spina",
+            "en": "Draft blonde beer"
+          },
+          "price": "3.50",
+          "image": "/images/dishes/birra-bionda-20.jpg",
+          "allergens": ["glutine"]
+        },
+        {
+          "id": "birra-bionda-40",
+          "name": {
+            "it": "Birra Bionda alla Spina 40cl",
+            "en": "Draft Blonde Beer 40cl"
+          },
+          "description": {
+            "it": "Birra bionda alla spina",
+            "en": "Draft blonde beer"
+          },
+          "price": "5.50",
+          "image": "/images/dishes/birra-bionda-40.jpg",
+          "allergens": ["glutine"]
+        },
+        {
+          "id": "birra-weiss-20",
+          "name": {
+            "it": "Birra Bionda Weiss alla Spina 20cl",
+            "en": "Draft Weiss Blonde Beer 20cl"
+          },
+          "description": {
+            "it": "Birra bionda Weiss alla spina",
+            "en": "Draft Weiss blonde beer"
+          },
+          "price": "4.00",
+          "image": "/images/dishes/birra-weiss-20.jpg",
+          "allergens": ["glutine"]
+        },
+        {
+          "id": "birra-weiss-40",
+          "name": {
+            "it": "Birra Bionda Weiss alla Spina 40cl",
+            "en": "Draft Weiss Blonde Beer 40cl"
+          },
+          "description": {
+            "it": "Birra bionda Weiss alla spina",
+            "en": "Draft Weiss blonde beer"
+          },
+          "price": "6.50",
+          "image": "/images/dishes/birra-weiss-40.jpg",
+          "allergens": ["glutine"]
+        },
+        {
+          "id": "birra-rossa-20",
+          "name": {
+            "it": "Birra Rossa alla Spina 20cl",
+            "en": "Draft Red Beer 20cl"
+          },
+          "description": {
+            "it": "Birra rossa alla spina",
+            "en": "Draft red beer"
+          },
+          "price": "4.00",
+          "image": "/images/dishes/birra-rossa-20.jpg",
+          "allergens": ["glutine"]
+        },
+        {
+          "id": "birra-rossa-40",
+          "name": {
+            "it": "Birra Rossa alla Spina 40cl",
+            "en": "Draft Red Beer 40cl"
+          },
+          "description": {
+            "it": "Birra rossa alla spina",
+            "en": "Draft red beer"
+          },
+          "price": "6.50",
+          "image": "/images/dishes/birra-rossa-40.jpg",
+          "allergens": ["glutine"]
+        }
+      ]
+    },
+    {
       "id": "bevande",
       "name": {
         "it": "Bevande",
