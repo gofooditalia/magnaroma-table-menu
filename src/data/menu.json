@@ -285,6 +285,48 @@
           "price": "10.00",
           "image": "/images/dishes/carpaccio-manzo.jpg",
           "allergens": ["lattosio"]
+        },
+        {
+          "id": "sformato-melanzane",
+          "name": {
+            "it": "Sformato di Melanzane",
+            "en": "Eggplant Flan"
+          },
+          "description": {
+            "it": "Salsa di pomodoro, melanzane fritte, scamorza bianca, mozzarella fiordilatte, basilico, grana",
+            "en": "Tomato sauce, fried eggplants, white scamorza, mozzarella, basil, grana cheese"
+          },
+          "price": "8.00",
+          "image": "/images/dishes/sformato-melanzane.jpg",
+          "allergens": ["lattosio"]
+        },
+        {
+          "id": "puntarelle-romana",
+          "name": {
+            "it": "Puntarelle alla Romana",
+            "en": "Roman-Style Puntarelle"
+          },
+          "description": {
+            "it": "Germogli di cicoria con battuto di olio E.V.O., aceto di vino, acciughe, pepe - Secondo la stagione",
+            "en": "Chicory sprouts with EVO oil dressing, wine vinegar, anchovies, pepper - Seasonal"
+          },
+          "price": "9.00",
+          "image": "/images/dishes/puntarelle-romana.jpg",
+          "allergens": ["pesce", "solfiti"]
+        },
+        {
+          "id": "crudo-bufala",
+          "name": {
+            "it": "Crudo e Bufala",
+            "en": "Prosciutto and Buffalo Mozzarella"
+          },
+          "description": {
+            "it": "Prosciutto crudo, mozzarella di bufala",
+            "en": "Prosciutto crudo, buffalo mozzarella"
+          },
+          "price": "11.00",
+          "image": "/images/dishes/crudo-bufala.jpg",
+          "allergens": ["lattosio"]
         }
       ]
     },
