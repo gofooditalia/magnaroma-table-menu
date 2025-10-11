@@ -324,10 +324,10 @@
           "allergens": ["glutine", "pesce", "lattosio"]
         }
       ]
-    },
-    {
+        },
+        {
       "id": "primi",
-      "name": {
+          "name": {
         "it": "I Primi",
         "en": "First Courses"
       },
@@ -348,7 +348,7 @@
         },
         {
           "id": "tonnarello-broccoli-salsiccia",
-          "name": {
+      "name": {
             "it": "Tonnarello Broccoli e Salsiccia",
             "en": "Tonnarello with Broccoli and Sausage"
           },

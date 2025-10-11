@@ -13,7 +13,7 @@ export default function Header() {
         {/* Layout mobile: logo sx, switcher dx */}
         <div className="flex items-center justify-between md:hidden">
           <Image
-            src="/magnaroma.svg"
+            src="/magnaroma.png"
             alt="Magna Roma Trattoria & Pinseria"
             width={140}
             height={50}
@@ -31,7 +31,7 @@ export default function Header() {
           {/* Logo centrato */}
           <div className="absolute left-1/2 transform -translate-x-1/2">
             <Image
-              src="/magnaroma.svg"
+              src="/magnaroma.png"
               alt="Magna Roma Trattoria & Pinseria"
               width={180}
               height={60}

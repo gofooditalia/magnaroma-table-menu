@@ -19,6 +19,28 @@ export const metadata: Metadata = {
   title: "Magna Roma Trattoria - Menu Digitale",
   description: "Scopri il menu della Magna Roma Trattoria, autentica cucina romana con i piatti della tradizione",
   keywords: "ristorante romano, menu digitale, cucina romana, trattoria, pinsa romana",
+  icons: {
+    icon: [
+      { url: '/favicon.png', type: 'image/png', sizes: '96x96' },
+      { url: '/magnaroma.png', type: 'image/png', sizes: '512x512' },
+    ],
+    apple: [
+      { url: '/magnaroma.png', sizes: '180x180', type: 'image/png' },
+    ],
+  },
+  openGraph: {
+    title: "Magna Roma Trattoria - Menu Digitale",
+    description: "Scopri il menu della Magna Roma Trattoria, autentica cucina romana con i piatti della tradizione",
+    type: "website",
+    images: [
+      {
+        url: '/magnaroma.png',
+        width: 512,
+        height: 512,
+        alt: 'Magna Roma Trattoria Logo',
+      },
+    ],
+  },
 };
 
 export const viewport = {

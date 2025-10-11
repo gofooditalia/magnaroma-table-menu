@@ -17,11 +17,11 @@ export default function AllergensLegal({ data }: AllergensLegalProps) {
       <div className="bg-gradient-to-r from-[#8B0000] to-[#6B0000] text-center py-8 px-6">
         <div className="inline-block bg-white/10 backdrop-blur-sm border-2 border-[#D4AF37] rounded-lg px-8 py-6">
           <Image
-            src="/magnaroma.svg"
+            src="/magnaroma.png"
             alt="Magna Roma Logo"
             width={200}
             height={60}
-            className="h-16 w-auto mx-auto mb-2 brightness-0 invert"
+            className="h-16 w-auto mx-auto mb-2"
           />
           <p className="text-sm text-white/90 uppercase tracking-wider">
             Cucina Romana
