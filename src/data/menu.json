@@ -1349,6 +1349,88 @@
           "price": "6.50",
           "image": "/images/dishes/birra-rossa-40.jpg",
           "allergens": ["glutine"]
+        },
+        {
+          "id": "birra-analcolica",
+          "name": {
+            "it": "Birra Analcolica 33cl",
+            "en": "Non-Alcoholic Beer 33cl"
+          },
+          "description": {
+            "it": "Birra analcolica in bottiglia",
+            "en": "Non-alcoholic bottled beer"
+          },
+          "price": "3.50",
+          "image": "/images/dishes/birra-analcolica.jpg"
+        },
+        {
+          "id": "birra-senza-glutine",
+          "name": {
+            "it": "Birra Senza Glutine 33cl",
+            "en": "Gluten-Free Beer 33cl"
+          },
+          "description": {
+            "it": "Birra senza glutine in bottiglia",
+            "en": "Gluten-free bottled beer"
+          },
+          "price": "3.50",
+          "image": "/images/dishes/birra-senza-glutine.jpg"
+        },
+        {
+          "id": "birra-artigianale-bionda",
+          "name": {
+            "it": "Birra Artigianale Magna Romā Bionda 5,5° 33cl",
+            "en": "Magna Romā Craft Blonde Beer 5.5° 33cl"
+          },
+          "description": {
+            "it": "Birra artigianale Magna Romā Bionda 5,5°",
+            "en": "Magna Romā craft blonde beer 5.5°"
+          },
+          "price": "3.50",
+          "image": "/images/dishes/birra-artigianale-bionda.jpg",
+          "allergens": ["glutine"]
+        },
+        {
+          "id": "birra-artigianale-weiss",
+          "name": {
+            "it": "Birra Artigianale Magna Romā Weiss 5° 33cl",
+            "en": "Magna Romā Craft Weiss Beer 5° 33cl"
+          },
+          "description": {
+            "it": "Birra artigianale Magna Romā Weiss 5°",
+            "en": "Magna Romā craft Weiss beer 5°"
+          },
+          "price": "3.50",
+          "image": "/images/dishes/birra-artigianale-weiss.jpg",
+          "allergens": ["glutine"]
+        },
+        {
+          "id": "birra-artigianale-rossa",
+          "name": {
+            "it": "Birra Artigianale Magna Romā Rossa 5° 33cl",
+            "en": "Magna Romā Craft Red Beer 5° 33cl"
+          },
+          "description": {
+            "it": "Birra artigianale Magna Romā Rossa 5°",
+            "en": "Magna Romā craft red beer 5°"
+          },
+          "price": "3.50",
+          "image": "/images/dishes/birra-artigianale-rossa.jpg",
+          "allergens": ["glutine"]
+        },
+        {
+          "id": "birra-artigianale-strong",
+          "name": {
+            "it": "Birra Artigianale Magna Romā Strong 7,3° 33cl",
+            "en": "Magna Romā Craft Strong Beer 7.3° 33cl"
+          },
+          "description": {
+            "it": "Birra artigianale Magna Romā Strong 7,3°",
+            "en": "Magna Romā craft strong beer 7.3°"
+          },
+          "price": "4.50",
+          "image": "/images/dishes/birra-artigianale-strong.jpg",
+          "allergens": ["glutine"]
         }
       ]
     },
