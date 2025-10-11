@@ -21,6 +21,7 @@ export const metadata: Metadata = {
   keywords: "ristorante romano, menu digitale, cucina romana, trattoria, pinsa romana",
   icons: {
     icon: [
+      { url: '/favicon.svg', type: 'image/svg+xml' },
       { url: '/favicon.png', type: 'image/png', sizes: '96x96' },
       { url: '/magnaroma.png', type: 'image/png', sizes: '512x512' },
     ],
