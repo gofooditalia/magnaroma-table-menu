@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { Dish } from '@/types/menu';
 import { useTranslation } from '@/hooks/useTranslation';
 import { useState } from 'react';
+import { parseIngredients } from '@/utils/ingredientParser';
 
 interface DishCardProps {
   dish: Dish;
@@ -56,7 +57,7 @@ export default function DishCard({ dish }: DishCardProps) {
         </h3>
         
         <p className="text-gray-600 text-sm md:text-base leading-relaxed mb-3 min-h-[3em]">
-          {t(dish.description)}
+          {parseIngredients(t(dish.description))}
         </p>
         
         {dish.allergens && dish.allergens.length > 0 && (
