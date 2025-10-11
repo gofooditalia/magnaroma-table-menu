@@ -56,9 +56,9 @@ export default function DishCard({ dish }: DishCardProps) {
           {t(dish.name)}
         </h3>
         
-        <p className="text-gray-600 text-sm md:text-base leading-relaxed mb-3 min-h-[3em]">
+        <div className="text-gray-600 text-sm md:text-base leading-relaxed mb-3 min-h-[3em]">
           {parseIngredients(t(dish.description))}
-        </p>
+        </div>
         
         {dish.allergens && dish.allergens.length > 0 && (
           <div className="mt-4 space-y-3">
