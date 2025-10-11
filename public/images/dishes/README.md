@@ -10,14 +10,24 @@
 
 ## Lista file necessari / Required files:
 
-### Antipasti
-- `suppli.jpg` - Supplì al Telefono
+### Antipasti (14 piatti)
+- `tagliere-magna-roma.jpg` - Tagliere Magna Romā
+- `patate-magna-roma.jpg` - Patate Magna Romā
+- `arrosticini.jpg` - Arrosticini della Casa
+- `mozzarella-carrozza.jpg` - Mozzarella in Carrozza
+- `tagliere-porchettaro.jpg` - Tagliere del Porchettaro
+- `fritti-romani.jpg` - Fritti Romani in Pastella
+- `trippa-romana.jpg` - Trippa Romana
+- `suppli.jpg` - Supplì
+- `fagioli-cotiche.jpg` - Fagioli con le Cotiche
 
 **Bruschette (4):**
 - `bruschetta-tradizionale.jpg` - Bruschetta Tradizionale
 - `bruschetta-lardo-miele.jpg` - Lardo e Miele
 - `bruschetta-stracciatella-alici.jpg` - Stracciatella e Alici
 - `bruschetta-salmone-rucola.jpg` - Salmone e Rucola
+
+**Altri:**
 - `fiori-zucca.jpg` - Fiori di Zucca Fritti
 
 ### Primi

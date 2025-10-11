@@ -8,18 +8,129 @@
       },
       "dishes": [
         {
-          "id": "supplì",
+          "id": "tagliere-magna-roma",
           "name": {
-            "it": "Supplì al Telefono",
-            "en": "Roman Rice Croquettes"
+            "it": "Tagliere Magna Romā",
+            "en": "Magna Romā Platter"
           },
           "description": {
-            "it": "Croccanti crocchette di riso ripiene di mozzarella filante e ragù",
-            "en": "Crispy rice croquettes filled with melted mozzarella and meat sauce"
+            "it": "Tagliere con salumi e formaggi per due persone",
+            "en": "Platter with cured meats and cheeses for two people"
           },
-          "price": "8.00",
-          "image": "/images/dishes/suppli.jpg",
+          "price": "20.00",
+          "image": "/images/dishes/tagliere-magna-roma.jpg",
+          "allergens": ["lattosio", "frutta-secca"]
+        },
+        {
+          "id": "patate-magna-roma",
+          "name": {
+            "it": "Patate Magna Romā",
+            "en": "Magna Romā Potatoes"
+          },
+          "description": {
+            "it": "Patate fritte scavate con crema di pecorino",
+            "en": "Hollowed fried potatoes with pecorino cream"
+          },
+          "price": "6.50",
+          "image": "/images/dishes/patate-magna-roma.jpg",
           "allergens": ["glutine", "lattosio"]
+        },
+        {
+          "id": "arrosticini",
+          "name": {
+            "it": "Arrosticini della Casa",
+            "en": "House Arrosticini"
+          },
+          "description": {
+            "it": "Arrosticini di carne ovina (10 pz) con patate al forno, sale, pepe, olio E.V.O. aromatizzati al rosmarino",
+            "en": "Lamb skewers (10 pcs) with roasted potatoes, salt, pepper, rosemary-flavored EVO oil"
+          },
+          "price": "14.00",
+          "image": "/images/dishes/arrosticini.jpg"
+        },
+        {
+          "id": "mozzarella-carrozza",
+          "name": {
+            "it": "Mozzarella in Carrozza",
+            "en": "Mozzarella in Carrozza"
+          },
+          "description": {
+            "it": "Fette di pane in cassetta, mozzarella fiordilatte, uova, con o senza alici, panate e fritte (2 pz)",
+            "en": "Sandwich bread slices, mozzarella, eggs, with or without anchovies, breaded and fried (2 pcs)"
+          },
+          "price": "6.50",
+          "image": "/images/dishes/mozzarella-carrozza.jpg",
+          "allergens": ["glutine", "uova", "pesce", "soia", "lattosio"]
+        },
+        {
+          "id": "tagliere-porchettaro",
+          "name": {
+            "it": "Tagliere del Porchettaro",
+            "en": "Porchetta Platter"
+          },
+          "description": {
+            "it": "Porchetta, aromi, con assaggi di pecorino e miele, pepe, sfumata con vino bianco",
+            "en": "Porchetta, herbs, with pecorino and honey tastings, pepper, white wine"
+          },
+          "price": "15.00",
+          "image": "/images/dishes/tagliere-porchettaro.jpg",
+          "allergens": ["lattosio", "solfiti"]
+        },
+        {
+          "id": "fritti-romani",
+          "name": {
+            "it": "Fritti Romani in Pastella",
+            "en": "Roman Fried in Batter"
+          },
+          "description": {
+            "it": "Fiori di zucca con mozzarella fiordilatte, alici, melanzane, zucchine, patate in pastella",
+            "en": "Zucchini flowers with mozzarella, anchovies, eggplant, zucchini, potatoes in batter"
+          },
+          "price": "6.50",
+          "image": "/images/dishes/fritti-romani.jpg",
+          "allergens": ["glutine", "crostacei", "uova", "pesce", "arachidi", "soia", "lattosio", "frutta-secca", "sedano", "senape", "sesamo", "solfiti", "lupini", "molluschi"]
+        },
+        {
+          "id": "trippa-romana",
+          "name": {
+            "it": "Trippa Romana",
+            "en": "Roman-Style Tripe"
+          },
+          "description": {
+            "it": "Trippa, salsa di pomodoro, sedano, carote, cipolla, pecorino, menta, vino bianco, olio E.V.O., pepe",
+            "en": "Tripe, tomato sauce, celery, carrots, onion, pecorino, mint, white wine, EVO oil, pepper"
+          },
+          "price": "11.00",
+          "image": "/images/dishes/trippa-romana.jpg",
+          "allergens": ["lattosio", "sedano", "solfiti"]
+        },
+        {
+          "id": "supplì",
+          "name": {
+            "it": "Supplì",
+            "en": "Supplì"
+          },
+          "description": {
+            "it": "Riso, tritato di manzo e maiale, salsa di pomodoro, cipolla, sedano, carote, alloro, mozzarella fiordilatte, vino bianco, grana (2 pz)",
+            "en": "Rice, beef and pork mince, tomato sauce, onion, celery, carrots, bay leaf, mozzarella, white wine, grana cheese (2 pcs)"
+          },
+          "price": "6.00",
+          "image": "/images/dishes/suppli.jpg",
+          "allergens": ["glutine", "lattosio", "frutta-secca", "sedano", "solfiti"]
+        },
+        {
+          "id": "fagioli-cotiche",
+          "name": {
+            "it": "Fagioli con le Cotiche",
+            "en": "Beans with Pork Rinds"
+          },
+          "description": {
+            "it": "Fagioli, cotiche di maiale, sedano, salsa di pomodoro, cipolla, carote, pepe, prezzemolo, vino bianco, olio E.V.O.",
+            "en": "Beans, pork rinds, celery, tomato sauce, onion, carrots, pepper, parsley, white wine, EVO oil"
+          },
+          "price": "9.00",
+          "image": "/images/dishes/fagioli-cotiche.jpg",
+          "allergens": ["sedano", "solfiti"]
         },
         {
           "id": "bruschetta-tradizionale",
