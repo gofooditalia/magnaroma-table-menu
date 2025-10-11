@@ -504,6 +504,34 @@
           "price": "14.00",
           "image": "/images/dishes/fettuccine-magnona.jpg",
           "allergens": ["glutine", "lattosio", "sedano", "solfiti"]
+        },
+        {
+          "id": "mezzi-rigatoni-buttarona",
+          "name": {
+            "it": "Mezzi Rigatoni alla Buttarona",
+            "en": "Mezzi Rigatoni alla Buttarona"
+          },
+          "description": {
+            "it": "Salsiccia, cotenna di maiale, salsa di pomodoro, guanciale, vino bianco, cipolla, pepe",
+            "en": "Sausage, pork rind, tomato sauce, guanciale, white wine, onion, pepper"
+          },
+          "price": "14.00",
+          "image": "/images/dishes/mezzi-rigatoni-buttarona.jpg",
+          "allergens": ["glutine", "solfiti"]
+        },
+        {
+          "id": "tonnarello-coda-vaccinara",
+          "name": {
+            "it": "Tonnarello al Sugo di Coda alla Vaccinara",
+            "en": "Tonnarello with Oxtail Sauce"
+          },
+          "description": {
+            "it": "Coda di manzo, pomodoro pelato, cipolla, carota, sedano, pepe, vino rosso, olio E.V.O.",
+            "en": "Oxtail, peeled tomatoes, onion, carrot, celery, pepper, red wine, EVO oil"
+          },
+          "price": "14.00",
+          "image": "/images/dishes/tonnarello-coda-vaccinara.jpg",
+          "allergens": ["glutine", "sedano", "solfiti"]
         }
       ]
     },
