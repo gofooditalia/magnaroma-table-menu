@@ -1442,44 +1442,214 @@
       },
       "dishes": [
         {
-          "id": "acqua",
+          "id": "acqua-vetro",
           "name": {
-            "it": "Acqua Naturale/Frizzante",
-            "en": "Still/Sparkling Water"
+            "it": "Acqua in Vetro 75cl",
+            "en": "Glass Bottled Water 75cl"
           },
           "description": {
-            "it": "Acqua minerale 1L",
-            "en": "Mineral water 1L"
+            "it": "Acqua in bottiglia di vetro",
+            "en": "Glass bottled water"
           },
-          "price": "3.00",
-          "image": "/images/dishes/acqua.jpg"
+          "price": "2.50",
+          "image": "/images/dishes/acqua-vetro.jpg"
         },
         {
-          "id": "vino-casa",
+          "id": "coca-cola",
           "name": {
-            "it": "Vino della Casa",
-            "en": "House Wine"
+            "it": "Coca Cola Vetro 33cl",
+            "en": "Coca Cola Glass 33cl"
           },
           "description": {
-            "it": "Vino rosso o bianco della casa (caraffa 0.5L)",
-            "en": "Red or white house wine (0.5L carafe)"
+            "it": "Coca Cola in bottiglia di vetro",
+            "en": "Coca Cola glass bottle"
           },
-          "price": "8.00",
-          "image": "/images/dishes/vino-casa.jpg"
+          "price": "2.00",
+          "image": "/images/dishes/coca-cola.jpg"
         },
         {
-          "id": "birra",
+          "id": "coca-cola-zero",
           "name": {
-            "it": "Birra alla Spina",
-            "en": "Draft Beer"
+            "it": "Coca Cola Zero Vetro 33cl",
+            "en": "Coca Cola Zero Glass 33cl"
           },
           "description": {
-            "it": "Birra artigianale italiana (0.4L)",
-            "en": "Italian craft beer (0.4L)"
+            "it": "Coca Cola Zero in bottiglia di vetro",
+            "en": "Coca Cola Zero glass bottle"
+          },
+          "price": "2.00",
+          "image": "/images/dishes/coca-cola-zero.jpg"
+        },
+        {
+          "id": "fanta",
+          "name": {
+            "it": "Fanta Vetro 33cl",
+            "en": "Fanta Glass 33cl"
+          },
+          "description": {
+            "it": "Fanta in bottiglia di vetro",
+            "en": "Fanta glass bottle"
+          },
+          "price": "2.00",
+          "image": "/images/dishes/fanta.jpg"
+        },
+        {
+          "id": "chinotto",
+          "name": {
+            "it": "Chinotto Vetro 33cl",
+            "en": "Chinotto Glass 33cl"
+          },
+          "description": {
+            "it": "Chinotto in bottiglia di vetro",
+            "en": "Chinotto glass bottle"
+          },
+          "price": "2.00",
+          "image": "/images/dishes/chinotto.jpg"
+        },
+        {
+          "id": "sprite",
+          "name": {
+            "it": "Sprite Vetro 33cl",
+            "en": "Sprite Glass 33cl"
+          },
+          "description": {
+            "it": "Sprite in bottiglia di vetro",
+            "en": "Sprite glass bottle"
+          },
+          "price": "2.00",
+          "image": "/images/dishes/sprite.jpg"
+        },
+        {
+          "id": "kinley",
+          "name": {
+            "it": "Kinley Lemon o Tonica 33cl",
+            "en": "Kinley Lemon or Tonic 33cl"
+          },
+          "description": {
+            "it": "Kinley lemon o tonica",
+            "en": "Kinley lemon or tonic"
+          },
+          "price": "2.00",
+          "image": "/images/dishes/kinley.jpg"
+        },
+        {
+          "id": "the-freddo",
+          "name": {
+            "it": "Thè alla Pesca o al Limone 33cl",
+            "en": "Peach or Lemon Iced Tea 33cl"
+          },
+          "description": {
+            "it": "Thè freddo alla pesca o al limone",
+            "en": "Peach or lemon iced tea"
+          },
+          "price": "2.00",
+          "image": "/images/dishes/the-freddo.jpg"
+        },
+        {
+          "id": "caffe",
+          "name": {
+            "it": "Caffè",
+            "en": "Coffee"
+          },
+          "description": {
+            "it": "Caffè espresso",
+            "en": "Espresso coffee"
+          },
+          "price": "1.50",
+          "image": "/images/dishes/caffe.jpg"
+        },
+        {
+          "id": "caffe-decaffeinato",
+          "name": {
+            "it": "Caffè Decaffeinato",
+            "en": "Decaffeinated Coffee"
+          },
+          "description": {
+            "it": "Caffè decaffeinato",
+            "en": "Decaffeinated coffee"
+          },
+          "price": "2.00",
+          "image": "/images/dishes/caffe-decaffeinato.jpg"
+        },
+        {
+          "id": "amari",
+          "name": {
+            "it": "Amari",
+            "en": "Bitters"
+          },
+          "description": {
+            "it": "Selezione di amari",
+            "en": "Selection of bitters"
+          },
+          "price": "4.00",
+          "image": "/images/dishes/amari.jpg"
+        },
+        {
+          "id": "amari-speciali",
+          "name": {
+            "it": "Amari Speciali",
+            "en": "Special Bitters"
+          },
+          "description": {
+            "it": "Selezione di amari speciali",
+            "en": "Selection of special bitters"
           },
           "price": "5.00",
-          "image": "/images/dishes/birra.jpg",
-          "allergens": ["glutine"]
+          "image": "/images/dishes/amari-speciali.jpg"
+        },
+        {
+          "id": "amaro-magnaroma",
+          "name": {
+            "it": "Amaro Magna Romā",
+            "en": "Magna Romā Bitter"
+          },
+          "description": {
+            "it": "Amaro Averna, rosmarino, salvia, menta, scorza di agrumi",
+            "en": "Averna bitter, rosemary, sage, mint, citrus zest"
+          },
+          "price": "6.00",
+          "image": "/images/dishes/amaro-magnaroma.jpg"
+        },
+        {
+          "id": "distillati",
+          "name": {
+            "it": "Distillati",
+            "en": "Spirits"
+          },
+          "description": {
+            "it": "Selezione di distillati",
+            "en": "Selection of spirits"
+          },
+          "price": "5.00",
+          "image": "/images/dishes/distillati.jpg"
+        },
+        {
+          "id": "aperol-spritz",
+          "name": {
+            "it": "Aperol Spritz",
+            "en": "Aperol Spritz"
+          },
+          "description": {
+            "it": "Aperol, prosecco",
+            "en": "Aperol, prosecco"
+          },
+          "price": "7.00",
+          "image": "/images/dishes/aperol-spritz.jpg",
+          "allergens": ["solfiti"]
+        },
+        {
+          "id": "spritz-magnaroma",
+          "name": {
+            "it": "Spritz Magna Romā",
+            "en": "Magna Romā Spritz"
+          },
+          "description": {
+            "it": "Cynar, prosecco, sprite, limone, menta, salvia",
+            "en": "Cynar, prosecco, sprite, lemon, mint, sage"
+          },
+          "price": "7.00",
+          "image": "/images/dishes/spritz-magnaroma.jpg",
+          "allergens": ["solfiti"]
         }
       ]
     }
