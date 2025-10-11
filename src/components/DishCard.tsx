@@ -12,11 +12,19 @@ interface DishCardProps {
 
 const allergenTranslations: Record<string, { it: string; en: string }> = {
   glutine: { it: 'Glutine', en: 'Gluten' },
-  lattosio: { it: 'Lattosio', en: 'Lactose' },
+  crostacei: { it: 'Crostacei', en: 'Crustaceans' },
   uova: { it: 'Uova', en: 'Eggs' },
   pesce: { it: 'Pesce', en: 'Fish' },
+  arachidi: { it: 'Arachidi', en: 'Peanuts' },
+  soia: { it: 'Soia', en: 'Soy' },
+  lattosio: { it: 'Lattosio', en: 'Lactose' },
   'frutta-secca': { it: 'Frutta secca', en: 'Nuts' },
   sedano: { it: 'Sedano', en: 'Celery' },
+  senape: { it: 'Senape', en: 'Mustard' },
+  sesamo: { it: 'Sesamo', en: 'Sesame' },
+  solfiti: { it: 'Solfiti', en: 'Sulphites' },
+  lupini: { it: 'Lupini', en: 'Lupin' },
+  molluschi: { it: 'Molluschi', en: 'Molluscs' },
 };
 
 export default function DishCard({ dish }: DishCardProps) {

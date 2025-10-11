@@ -201,6 +201,90 @@
           "price": "10.00",
           "image": "/images/dishes/fiori-zucca.jpg",
           "allergens": ["glutine", "lattosio", "pesce"]
+        },
+        {
+          "id": "baccala-pastella",
+          "name": {
+            "it": "Filetti di Baccalà in Pastella",
+            "en": "Battered Cod Fillets"
+          },
+          "description": {
+            "it": "Filetti di baccalà fritti in pastella",
+            "en": "Fried cod fillets in batter"
+          },
+          "price": "9.00",
+          "image": "/images/dishes/baccala-pastella.jpg",
+          "allergens": ["glutine", "pesce", "lupini"]
+        },
+        {
+          "id": "polpette-sugo-giannone",
+          "name": {
+            "it": "Polpette al Sugo alla Giannone",
+            "en": "Giannone-Style Meatballs in Sauce"
+          },
+          "description": {
+            "it": "Tritato di manzo e maiale, salsa di pomodoro, grana, cipolla, uova, latte, pangrattato, basilico, prezzemolo",
+            "en": "Beef and pork mince, tomato sauce, grana cheese, onion, eggs, milk, breadcrumbs, basil, parsley"
+          },
+          "price": "9.00",
+          "image": "/images/dishes/polpette-sugo-giannone.jpg",
+          "allergens": ["glutine", "uova", "lattosio"]
+        },
+        {
+          "id": "solo-fiori",
+          "name": {
+            "it": "Solo Fiori",
+            "en": "Only Flowers"
+          },
+          "description": {
+            "it": "Fiori di zucca con mozzarella, alici in pastella (4 pz)",
+            "en": "Zucchini flowers with mozzarella and anchovies in batter (4 pcs)"
+          },
+          "price": "8.00",
+          "image": "/images/dishes/solo-fiori.jpg",
+          "allergens": ["glutine", "crostacei", "uova", "pesce", "arachidi", "soia", "lattosio", "frutta-secca", "sedano", "senape", "sesamo", "solfiti", "lupini", "molluschi"]
+        },
+        {
+          "id": "carciofi-romana",
+          "name": {
+            "it": "Carciofi alla Romana",
+            "en": "Roman-Style Artichokes"
+          },
+          "description": {
+            "it": "Carciofi in umido conditi con olio E.V.O., prezzemolo, menta, aglio, sale, pepe, acciughe con gocce di crema di pecorino (2 pz) - Secondo la stagione",
+            "en": "Braised artichokes with EVO oil, parsley, mint, garlic, salt, pepper, anchovies with pecorino cream drops (2 pcs) - Seasonal"
+          },
+          "price": "7.00",
+          "image": "/images/dishes/carciofi-romana.jpg",
+          "allergens": ["lattosio", "pesce"]
+        },
+        {
+          "id": "carciofo-giudia",
+          "name": {
+            "it": "Carciofo alla Giudia",
+            "en": "Jewish-Style Artichoke"
+          },
+          "description": {
+            "it": "Carciofo fritto - Secondo la stagione",
+            "en": "Fried artichoke - Seasonal"
+          },
+          "price": "6.00",
+          "image": "/images/dishes/carciofo-giudia.jpg",
+          "allergens": ["glutine"]
+        },
+        {
+          "id": "carpaccio-manzo",
+          "name": {
+            "it": "Carpaccio di Manzo",
+            "en": "Beef Carpaccio"
+          },
+          "description": {
+            "it": "Carpaccio di manzo, rucola, olio, sale e pepe, scaglie di grana",
+            "en": "Beef carpaccio, arugula, oil, salt and pepper, grana cheese flakes"
+          },
+          "price": "10.00",
+          "image": "/images/dishes/carpaccio-manzo.jpg",
+          "allergens": ["lattosio"]
         }
       ]
     },
