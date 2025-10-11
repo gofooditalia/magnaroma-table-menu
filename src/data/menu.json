@@ -1050,32 +1050,114 @@
       },
       "dishes": [
         {
-          "id": "tiramisu",
+          "id": "tiramisu-scomposto",
           "name": {
-            "it": "Tiramisù",
-            "en": "Tiramisu"
+            "it": "Tiramisù Scomposto",
+            "en": "Deconstructed Tiramisu"
           },
           "description": {
-            "it": "Il classico dolce al cucchiaio con savoiardi, mascarpone e caffè",
-            "en": "Classic Italian dessert with ladyfingers, mascarpone and coffee"
+            "it": "Mascarpone, uova pastorizzate, zucchero, cacao, caffè, savoiardi",
+            "en": "Mascarpone, pasteurized eggs, sugar, cocoa, coffee, ladyfingers"
           },
-          "price": "6.00",
-          "image": "/images/dishes/tiramisu.jpg",
+          "price": "7.00",
+          "image": "/images/dishes/tiramisu-scomposto.jpg",
           "allergens": ["glutine", "uova", "lattosio"]
         },
         {
-          "id": "panna-cotta",
+          "id": "panna-cotta-guarnita",
           "name": {
             "it": "Panna Cotta",
             "en": "Panna Cotta"
           },
           "description": {
-            "it": "Panna cotta con coulis ai frutti di bosco",
-            "en": "Panna cotta with berry coulis"
+            "it": "Panna, zucchero, vanillina, gelatina alimentare, guarnita a scelta tra: nutella, cioccolato, fragola, frutti di bosco, caramello",
+            "en": "Cream, sugar, vanilla, food gelatin, garnished with choice of: nutella, chocolate, strawberry, berries, caramel"
           },
           "price": "6.00",
-          "image": "/images/dishes/panna-cotta.jpg",
-          "allergens": ["lattosio"]
+          "image": "/images/dishes/panna-cotta-guarnita.jpg",
+          "allergens": ["glutine", "uova", "lattosio"]
+        },
+        {
+          "id": "tortino-ricotta-pere",
+          "name": {
+            "it": "Tortino Ricotta e Pere",
+            "en": "Ricotta and Pear Tart"
+          },
+          "description": {
+            "it": "Farina 00, zucchero, uova, vanillina, ricotta, panna montata, pere",
+            "en": "00 flour, sugar, eggs, vanilla, ricotta, whipped cream, pears"
+          },
+          "price": "6.00",
+          "image": "/images/dishes/tortino-ricotta-pere.jpg",
+          "allergens": ["glutine", "uova", "lattosio"]
+        },
+        {
+          "id": "tortino-cuore-caldo-cioccolato",
+          "name": {
+            "it": "Tortino Cuore Caldo al Cioccolato",
+            "en": "Warm Chocolate Lava Cake"
+          },
+          "description": {
+            "it": "Farina 00, zucchero, uova, vanillina, cioccolato fondente, cacao, lievito",
+            "en": "00 flour, sugar, eggs, vanilla, dark chocolate, cocoa, yeast"
+          },
+          "price": "7.00",
+          "image": "/images/dishes/tortino-cuore-caldo-cioccolato.jpg",
+          "allergens": ["glutine", "uova", "lattosio"]
+        },
+        {
+          "id": "crostata-visciole",
+          "name": {
+            "it": "Crostata di Visciole",
+            "en": "Sour Cherry Tart"
+          },
+          "description": {
+            "it": "Farina 00, uova, zucchero, vanillina, burro, marmellata di visciole",
+            "en": "00 flour, eggs, sugar, vanilla, butter, sour cherry jam"
+          },
+          "price": "7.00",
+          "image": "/images/dishes/crostata-visciole.jpg",
+          "allergens": ["glutine", "uova", "lattosio"]
+        },
+        {
+          "id": "sorbetto-limone",
+          "name": {
+            "it": "Sorbetto al Limone",
+            "en": "Lemon Sorbet"
+          },
+          "description": {
+            "it": "Acqua, zucchero, limone",
+            "en": "Water, sugar, lemon"
+          },
+          "price": "3.00",
+          "image": "/images/dishes/sorbetto-limone.jpg"
+        },
+        {
+          "id": "frutta-stagione",
+          "name": {
+            "it": "Frutta di Stagione",
+            "en": "Seasonal Fruit"
+          },
+          "description": {
+            "it": "Frutta fresca di stagione",
+            "en": "Fresh seasonal fruit"
+          },
+          "price": "5.00",
+          "image": "/images/dishes/frutta-stagione.jpg"
+        },
+        {
+          "id": "sbriciolata",
+          "name": {
+            "it": "Sbriciolata",
+            "en": "Crumble Tart"
+          },
+          "description": {
+            "it": "Farina 00, uova pastorizzate, zucchero, panna, limone, sfoglia guarnita a scelta tra: nutella, cioccolato, fragola, frutti di bosco, caramello",
+            "en": "00 flour, pasteurized eggs, sugar, cream, lemon, puff pastry garnished with choice of: nutella, chocolate, strawberry, berries, caramel"
+          },
+          "price": "6.00",
+          "image": "/images/dishes/sbriciolata.jpg",
+          "allergens": ["glutine", "uova", "lattosio"]
         }
       ]
     },
