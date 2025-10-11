@@ -1015,30 +1015,43 @@
       },
       "dishes": [
         {
-          "id": "cicoria",
+          "id": "cicoria-padella",
           "name": {
-            "it": "Cicoria Ripassata",
-            "en": "Sautéed Chicory"
+            "it": "Cicoria in Padella",
+            "en": "Pan-Fried Chicory"
           },
           "description": {
-            "it": "Cicoria ripassata in padella con aglio, olio e peperoncino",
-            "en": "Chicory sautéed with garlic, olive oil and chili pepper"
+            "it": "Cicoria in padella con olio E.V.O., aglio, peperoncino - Fresca in base alla stagione",
+            "en": "Chicory pan-fried with EVO oil, garlic, chili pepper - Fresh based on season"
           },
-          "price": "5.00",
-          "image": "/images/dishes/cicoria.jpg"
+          "price": "7.00",
+          "image": "/images/dishes/cicoria-padella.jpg"
         },
         {
-          "id": "patate-forno",
+          "id": "verdure-grigliate",
+          "name": {
+            "it": "Verdure Grigliate",
+            "en": "Grilled Vegetables"
+          },
+          "description": {
+            "it": "Zucchinette, melanzane, pomodoro, radicchio, funghi, prezzemolo",
+            "en": "Zucchini, eggplant, tomato, radicchio, mushrooms, parsley"
+          },
+          "price": "7.00",
+          "image": "/images/dishes/verdure-grigliate.jpg"
+        },
+        {
+          "id": "patate-forno-contorno",
           "name": {
             "it": "Patate al Forno",
             "en": "Roasted Potatoes"
           },
           "description": {
-            "it": "Patate al forno croccanti con rosmarino",
-            "en": "Crispy roasted potatoes with rosemary"
+            "it": "Patate, rosmarino, sale, olio E.V.O.",
+            "en": "Potatoes, rosemary, salt, EVO oil"
           },
-          "price": "5.00",
-          "image": "/images/dishes/patate-forno.jpg"
+          "price": "6.00",
+          "image": "/images/dishes/patate-forno-contorno.jpg"
         }
       ]
     },
