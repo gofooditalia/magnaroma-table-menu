@@ -617,49 +617,92 @@
     {
       "id": "secondi",
       "name": {
-        "it": "Secondi Piatti",
+        "it": "I Secondi",
         "en": "Main Courses"
       },
       "dishes": [
         {
-          "id": "saltimbocca",
+          "id": "abbacchio-scottadito",
           "name": {
-            "it": "Saltimbocca alla Romana",
-            "en": "Roman-Style Saltimbocca"
+            "it": "Abbacchio Scottadito",
+            "en": "Grilled Lamb Chops"
           },
           "description": {
-            "it": "Fettine di vitello con prosciutto crudo e salvia, sfumate al vino bianco",
-            "en": "Veal cutlets with prosciutto and sage, deglazed with white wine"
+            "it": "Costolette di abbacchio ai ferri con patate al forno, rosmarino, olio E.V.O.",
+            "en": "Grilled lamb chops with roasted potatoes, rosemary, EVO oil"
           },
-          "price": "18.00",
-          "image": "/images/dishes/saltimbocca.jpg"
+          "price": "17.00",
+          "image": "/images/dishes/abbacchio-scottadito.jpg"
         },
         {
-          "id": "coda-vaccinara",
+          "id": "scaloppine-vino-limone",
+          "name": {
+            "it": "Scaloppine al Vino o Limone",
+            "en": "Veal Scaloppine with Wine or Lemon"
+          },
+          "description": {
+            "it": "Carne di manzo saltata in padella al limone o al vino, con burro, farina, contorno di patate al forno, olio E.V.O., pepe",
+            "en": "Beef sautéed with lemon or wine, butter, flour, with roasted potatoes, EVO oil, pepper"
+          },
+          "price": "13.00",
+          "image": "/images/dishes/scaloppine-vino-limone.jpg",
+          "allergens": ["glutine", "lattosio", "solfiti"]
+        },
+        {
+          "id": "scaloppine-funghi",
+          "name": {
+            "it": "Scaloppine ai Funghi",
+            "en": "Veal Scaloppine with Mushrooms"
+          },
+          "description": {
+            "it": "Carne di manzo saltata in padella, funghi champignon, burro, farina, vino bianco, olio E.V.O., pepe",
+            "en": "Beef sautéed with champignon mushrooms, butter, flour, white wine, EVO oil, pepper"
+          },
+          "price": "15.00",
+          "image": "/images/dishes/scaloppine-funghi.jpg",
+          "allergens": ["glutine", "lattosio", "solfiti"]
+        },
+        {
+          "id": "coda-vaccinara-secondo",
           "name": {
             "it": "Coda alla Vaccinara",
             "en": "Oxtail Stew"
           },
           "description": {
-            "it": "Coda di bue brasata con pomodoro, sedano e pinoli",
-            "en": "Braised oxtail with tomatoes, celery and pine nuts"
+            "it": "Coda di manzo, pomodoro pelato, sedano, carote, cipolla, sfumata al vino rosso, olio E.V.O.",
+            "en": "Oxtail, peeled tomatoes, celery, carrots, onion, deglazed with red wine, EVO oil"
           },
-          "price": "19.00",
-          "image": "/images/dishes/coda-vaccinara.jpg",
-          "allergens": ["sedano", "frutta-secca"]
+          "price": "16.00",
+          "image": "/images/dishes/coda-vaccinara-secondo.jpg",
+          "allergens": ["sedano", "solfiti"]
         },
         {
-          "id": "abbacchio",
+          "id": "saltimbocca-romana",
           "name": {
-            "it": "Abbacchio alla Scottadito",
-            "en": "Grilled Lamb Chops"
+            "it": "Saltimbocca alla Romana",
+            "en": "Roman-Style Saltimbocca"
           },
           "description": {
-            "it": "Costolette di abbacchio alla griglia con rosmarino e aglio",
-            "en": "Grilled lamb chops with rosemary and garlic"
+            "it": "Carne di manzo saltata in padella con burro, farina, prosciutto crudo, salvia sfumata con vino bianco, con contorno di patate al forno, olio E.V.O. e pepe",
+            "en": "Beef sautéed with butter, flour, prosciutto, sage deglazed with white wine, with roasted potatoes, EVO oil and pepper"
           },
-          "price": "20.00",
-          "image": "/images/dishes/abbacchio.jpg"
+          "price": "14.00",
+          "image": "/images/dishes/saltimbocca-romana.jpg",
+          "allergens": ["glutine", "lattosio", "solfiti"]
+        },
+        {
+          "id": "gran-tagliere-casa",
+          "name": {
+            "it": "Gran Tagliere della Casa",
+            "en": "Grand House Platter"
+          },
+          "description": {
+            "it": "Costolette di abbacchio scottadito, salsiccia, arrosticini, porchetta, carne alla Picchiapo, patate al forno e fritte, trincià romani, crema di pecorino, peperoncino, pepe",
+            "en": "Grilled lamb chops, sausage, arrosticini, porchetta, Picchiapo meat, roasted and fried potatoes, Roman trincià, pecorino cream, chili pepper, pepper"
+          },
+          "price": "28.00",
+          "image": "/images/dishes/gran-tagliere-casa.jpg",
+          "allergens": ["glutine", "lattosio", "solfiti"]
         }
       ]
     },
