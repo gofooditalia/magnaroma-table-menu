@@ -60,9 +60,12 @@
 - `cicoria.jpg`
 - `patate-forno.jpg`
 
-### Dolci
-- `tiramisu.jpg`
-- `panna-cotta.jpg`
+### Dolci (5 dolci)
+- `tiramisu-scomposto.jpg` - Tiramisù Scomposto
+- `panna-cotta-guarnita.jpg` - Panna Cotta
+- `tortino-ricotta-pere.jpg` - Tortino Ricotta e Pere
+- `tortino-cuore-caldo-cioccolato.jpg` - Tortino Cuore Caldo al Cioccolato
+- `crostata-visciole.jpg` - Crostata di Visciole
 
 ### Bevande
 - `acqua.jpg`
