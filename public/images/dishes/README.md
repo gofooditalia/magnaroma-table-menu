@@ -70,7 +70,8 @@
 - `birra.jpg`
 
 ## Note
-- Le immagini attuali sono placeholder SVG
-- Sostituiscile con le tue foto professionali per un risultato ottimale
+- I piatti senza immagine mostreranno l'icona del Colosseo come placeholder
+- Aggiungi le tue foto professionali in questa cartella per sostituire il placeholder
 - Next.js ottimizzerà automaticamente le immagini per performance migliori
+- Formati supportati: JPG, PNG, WebP
 
