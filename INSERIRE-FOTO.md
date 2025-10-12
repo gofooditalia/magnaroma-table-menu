@@ -12,47 +12,72 @@
    
    Usa questi nomi ESATTI (minuscole, con trattino):
    
-   ### Antipasti
-   - `suppli.jpg` - Supplì al Telefono
-   - `bruschette.jpg` - Bruschette Miste
+   ### Antipasti (14 piatti)
+   - `tagliere-magna-roma.jpg` - Tagliere Magna Romā
+   - `patate-magna-roma.jpg` - Patate Magna Romā
+   - `arrosticini.jpg` - Arrosticini della Casa
+   - `mozzarella-carrozza.jpg` - Mozzarella in Carrozza
+   - `tagliere-porchettaro.jpg` - Tagliere del Porchettaro
+   - `fritti-romani.jpg` - Fritti Romani in Pastella
+   - `trippa-romana.jpg` - Trippa Romana
+   - `suppli.jpg` - Supplì
+   - `fagioli-cotiche.jpg` - Fagioli con le Cotiche
+   - `bruschetta-tradizionale.jpg` - Bruschetta Tradizionale
+   - `bruschetta-lardo-miele.jpg` - Lardo e Miele
+   - `bruschetta-stracciatella-alici.jpg` - Stracciatella e Alici
+   - `bruschetta-salmone-rucola.jpg` - Salmone e Rucola
    - `fiori-zucca.jpg` - Fiori di Zucca Fritti
    
-   ### Primi
+   ### Primi (4 piatti)
    - `carbonara.jpg` - Carbonara
    - `amatriciana.jpg` - Amatriciana
    - `cacio-pepe.jpg` - Cacio e Pepe
    - `gricia.jpg` - Gricia
    
-   ### Secondi
+   ### Secondi (3 piatti)
    - `saltimbocca.jpg` - Saltimbocca alla Romana
    - `coda-vaccinara.jpg` - Coda alla Vaccinara
    - `abbacchio.jpg` - Abbacchio alla Scottadito
    
-   ### Pinse
-   - `pinsa-margherita.jpg` - Pinsa Margherita
-   - `pinsa-mortadella.jpg` - Pinsa Mortadella e Pistacchio
+   ### Pinse (13 pinse)
+   - `giulio-cesare.jpg` - Giulio Cesare
+   - `mortazza.jpg` - Mortazza
+   - `romana.jpg` - Romana
+   - `amatriciana-pinsa.jpg` - Amatriciana
+   - `buciarda.jpg` - Buciarda
+   - `der-pupone.jpg` - Der Pupone
+   - `bruciacculo.jpg` - Bruciacculo
+   - `cuppolone.jpg` - Cuppolone
+   - `sora-lella.jpg` - Sora Lella
+   - `magna-roma.jpg` - Magna Roma'
+   - `la-caciarona.jpg` - La Caciarona
+   - `villa-borghese.jpg` - Villa Borghese
+   - `la-fiatella.jpg` - La Fiatella
    
-   ### Contorni
+   ### Contorni (2 piatti)
    - `cicoria.jpg` - Cicoria Ripassata
    - `patate-forno.jpg` - Patate al Forno
    
-   ### Dolci
-   - `tiramisu.jpg` - Tiramisù
-   - `panna-cotta.jpg` - Panna Cotta
+   ### Dolci (5 dolci)
+   - `tiramisu-scomposto.jpg` - Tiramisù Scomposto
+   - `panna-cotta-guarnita.jpg` - Panna Cotta
+   - `tortino-ricotta-pere.jpg` - Tortino Ricotta e Pere
+   - `tortino-cuore-caldo-cioccolato.jpg` - Tortino Cuore Caldo al Cioccolato
+   - `crostata-visciole.jpg` - Crostata di Visciole
    
-   ### Bevande
+   ### Bevande (3 bevande)
    - `acqua.jpg` - Acqua
    - `vino-casa.jpg` - Vino della Casa
    - `birra.jpg` - Birra alla Spina
 
 3. **Carica le foto**
    
-   Sostituisci i file placeholder in:
+   Aggiungi le tue foto nella cartella:
    ```
    public/images/dishes/
    ```
    
-   Copia semplicemente le tue foto in questa cartella, sovrascrivendo i placeholder esistenti.
+   **Nota**: I piatti senza immagine mostreranno automaticamente l'icona del Colosseo come placeholder fino a quando non caricherai la foto corrispondente.
 
 4. **Verifica**
    
