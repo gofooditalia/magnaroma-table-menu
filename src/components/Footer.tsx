@@ -54,11 +54,20 @@ export default function Footer() {
                 ? 'Trattoria & Pinseria'
                 : 'Traditional Roman Cuisine'}
             </p>
-            <p className="text-sm text-gray-700 leading-relaxed">
+            <p className="text-sm text-gray-700 leading-relaxed mb-4">
               {language === 'it'
                 ? 'Autentica cucina romana con i sapori della tradizione'
                 : 'Authentic Roman cuisine with traditional flavors'}
             </p>
+            <div className="flex justify-center md:justify-start">
+              <Image
+                src="/icon.svg"
+                alt="Colosseo"
+                width={48}
+                height={48}
+                className="w-12 h-12 opacity-70"
+              />
+            </div>
           </div>
 
           {/* Le Nostre Sedi */}
