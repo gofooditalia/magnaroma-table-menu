@@ -31,7 +31,7 @@ const allergenTranslations: Record<string, { it: string; en: string }> = {
 export default function DishCard({ dish }: DishCardProps) {
   const { t, language } = useTranslation();
   const [imageError, setImageError] = useState(false);
-  const placeholderImage = '/images/dishes/dish_placeholder.svg';
+  const placeholderImage = '/icon.svg';
 
   return (
     <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 hover:-translate-y-1">
