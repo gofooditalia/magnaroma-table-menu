@@ -10,17 +10,17 @@ export default function Footer() {
   const locations = [
     { 
       city: 'Palermo', 
-      address: 'Via Paolo Paternostro n.7',
+      address: 'Via Paolo Paternostro, 7',
       phone: '091 332213 - 3206729295'
     },
     { 
       city: 'Palermo', 
-      address: 'Viale Strasburgo n.364',
+      address: 'Viale Strasburgo, 364',
       phone: '091 7283177 - 3922151234'
     },
     { 
       city: 'Catania', 
-      address: 'Via Martino Cilestri n.95',
+      address: 'Via Martino Cilestri, 95',
       phone: '095 0925271 - 3206529370'
     },
     { 
@@ -30,7 +30,7 @@ export default function Footer() {
     },
     { 
       city: 'Cefalù', 
-      address: 'Via Giuseppe Vazzana n.2',
+      address: 'Via Giuseppe Vazzana, 2',
       phone: '0921 442010'
     },
   ];

@@ -36,7 +36,13 @@ export default function Header() {
               aria-label="Filtro senza glutine"
               aria-pressed={isGlutenFree}
             >
-              <span className="text-xl">🌾</span>
+              <Image
+                src="/gluten-free.png"
+                alt="Filtro senza glutine"
+                width={20}
+                height={20}
+                className="w-5 h-5"
+              />
             </button>
             
             <LanguageSwitcher />
@@ -73,7 +79,13 @@ export default function Header() {
               aria-label="Filtro senza glutine"
               aria-pressed={isGlutenFree}
             >
-              <span className="text-2xl">🌾</span>
+              <Image
+                src="/gluten-free.png"
+                alt="Filtro senza glutine"
+                width={24}
+                height={24}
+                className="w-6 h-6"
+              />
             </button>
             
             <LanguageSwitcher />
