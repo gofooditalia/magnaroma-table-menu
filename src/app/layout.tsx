@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter, Playfair_Display } from "next/font/google";
 import "./globals.css";
 import { LanguageProvider } from "@/contexts/LanguageContext";
+import { GlutenFilterProvider } from "@/contexts/GlutenFilterContext";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -52,7 +53,9 @@ export default function RootLayout({
         className={`${inter.variable} ${playfair.variable} font-sans antialiased bg-[#FFF8E7]`}
       >
         <LanguageProvider>
-          {children}
+          <GlutenFilterProvider>
+            {children}
+          </GlutenFilterProvider>
         </LanguageProvider>
       </body>
     </html>

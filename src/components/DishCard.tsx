@@ -6,6 +6,7 @@ import { Dish } from '@/types/menu';
 import { useTranslation } from '@/hooks/useTranslation';
 import { useState } from 'react';
 import { parseIngredients } from '@/utils/ingredientParser';
+import { useGlutenFilter } from '@/contexts/GlutenFilterContext';
 
 interface DishCardProps {
   dish: Dish;
@@ -30,11 +31,22 @@ const allergenTranslations: Record<string, { it: string; en: string }> = {
 
 export default function DishCard({ dish }: DishCardProps) {
   const { t, language } = useTranslation();
+  const { isGlutenFree } = useGlutenFilter();
   const [imageError, setImageError] = useState(false);
   const placeholderImage = '/icon.svg';
 
+  // Verifica se il piatto contiene glutine
+  const containsGluten = dish.allergens?.includes('glutine') || false;
+  
+  // Il piatto è disabilitato se il filtro glutine è attivo E contiene glutine
+  const isDisabled = isGlutenFree && containsGluten;
+
   return (
-    <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 hover:-translate-y-1">
+    <div className={`bg-white rounded-2xl shadow-lg overflow-hidden transition-all duration-300 ${
+      isDisabled 
+        ? 'opacity-50 pointer-events-none' 
+        : 'hover:shadow-2xl hover:-translate-y-1'
+    }`}>
       <div className="relative aspect-[4/3] w-full overflow-hidden bg-gradient-to-br from-[#FFF8E7] to-[#D4AF37]/20">
         <Image
           src={imageError ? placeholderImage : dish.image}
@@ -49,6 +61,16 @@ export default function DishCard({ dish }: DishCardProps) {
         <div className="absolute top-4 right-4 bg-gradient-to-r from-[#D4AF37] to-[#C4A037] text-white px-4 py-2 rounded-full shadow-lg backdrop-blur-sm">
           <span className="font-bold text-lg">€{dish.price}</span>
         </div>
+        
+        {/* Badge glutine quando filtro attivo */}
+        {isDisabled && (
+          <div className="absolute top-4 left-4 bg-red-600 text-white px-3 py-1.5 rounded-full shadow-lg backdrop-blur-sm">
+            <span className="font-semibold text-xs flex items-center gap-1">
+              <span>🌾</span>
+              {language === 'it' ? 'Contiene glutine' : 'Contains gluten'}
+            </span>
+          </div>
+        )}
       </div>
       
       <div className="p-4 md:p-5">
