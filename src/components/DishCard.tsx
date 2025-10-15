@@ -33,6 +33,7 @@ export default function DishCard({ dish }: DishCardProps) {
   const { t, language } = useTranslation();
   const { isGlutenFree } = useGlutenFilter();
   const [imageError, setImageError] = useState(false);
+  const [imageLoaded, setImageLoaded] = useState(false);
   const placeholderImage = '/icon.svg';
 
   // Verifica se il piatto contiene glutine
@@ -48,14 +49,28 @@ export default function DishCard({ dish }: DishCardProps) {
         : 'hover:shadow-2xl hover:-translate-y-1'
     }`}>
       <div className="relative aspect-[4/3] w-full overflow-hidden bg-gradient-to-br from-[#FFF8E7] to-[#D4AF37]/20">
+        {/* Skeleton Loader - visibile solo durante il caricamento */}
+        {!imageLoaded && !imageError && (
+          <div className="absolute inset-0 animate-shimmer" />
+        )}
+
+        {/* Immagine */}
         <Image
           src={imageError ? placeholderImage : dish.image}
           alt={t(dish.name)}
           fill
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-          className={`${imageError ? 'object-contain p-8' : 'object-cover'} hover:scale-105 transition-transform duration-500`}
+          className={`
+            ${imageError ? 'object-contain p-8' : 'object-cover'} 
+            hover:scale-105 transition-transform duration-500
+            ${imageLoaded ? 'opacity-100' : 'opacity-0'}
+          `}
           priority={false}
-          onError={() => setImageError(true)}
+          onLoad={() => setImageLoaded(true)}
+          onError={() => {
+            setImageError(true);
+            setImageLoaded(true);
+          }}
         />
         {/* Price badge */}
         <div className="absolute top-4 right-4 bg-gradient-to-r from-[#D4AF37] to-[#C4A037] text-white px-4 py-2 rounded-full shadow-lg backdrop-blur-sm">
