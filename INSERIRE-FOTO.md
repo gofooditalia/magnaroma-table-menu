@@ -109,10 +109,44 @@
    - `frutta-stagione.jpg` - Frutta di Stagione
    - `sbriciolata.jpg` - Sbriciolata
    
-   ### Bevande (generalizzate)
-   - `acqua.jpg` - Acqua
-   - `vino-casa.jpg` - Vino della Casa
-   - `birra.jpg` - Birra alla Spina
+   ### Il Bere della Casa (18 vini e birre)
+   - `vino-rosso-375.jpg` - Vino Rosso Magna Romā 375ml
+   - `vino-bianco-375.jpg` - Vino Bianco Magna Romā 375ml
+   - `vino-rosso-750.jpg` - Vino Rosso Magna Romā 750ml
+   - `vino-bianco-750.jpg` - Vino Bianco Magna Romā 750ml
+   - `vino-frizzante-750.jpg` - Vino Frizzante Magna Romā 750ml
+   - `calice-magnaroma.jpg` - Calice Magna Romā
+   - `calice-bottiglia.jpg` - Calice in Bottiglia
+   - `birra-bionda-20.jpg` - Birra Bionda alla Spina 20cl
+   - `birra-bionda-40.jpg` - Birra Bionda alla Spina 40cl
+   - `birra-weiss-20.jpg` - Birra Bionda Weiss alla Spina 20cl
+   - `birra-weiss-40.jpg` - Birra Bionda Weiss alla Spina 40cl
+   - `birra-rossa-20.jpg` - Birra Rossa alla Spina 20cl
+   - `birra-rossa-40.jpg` - Birra Rossa alla Spina 40cl
+   - `birra-analcolica.jpg` - Birra Analcolica 33cl
+   - `birra-senza-glutine.jpg` - Birra Senza Glutine 33cl
+   - `birra-artigianale-bionda.jpg` - Birra Artigianale Magna Romā Bionda 5,5° 33cl
+   - `birra-artigianale-weiss.jpg` - Birra Artigianale Magna Romā Weiss 5° 33cl
+   - `birra-artigianale-rossa.jpg` - Birra Artigianale Magna Romā Rossa 5° 33cl
+   - `birra-artigianale-strong.jpg` - Birra Artigianale Magna Romā Strong 7,3° 33cl
+   
+   ### Bevande (16 bevande)
+   - `acqua-vetro.jpg` - Acqua in Vetro 75cl
+   - `coca-cola.jpg` - Coca Cola Vetro 33cl
+   - `coca-cola-zero.jpg` - Coca Cola Zero Vetro 33cl
+   - `fanta.jpg` - Fanta Vetro 33cl
+   - `chinotto.jpg` - Chinotto Vetro 33cl
+   - `sprite.jpg` - Sprite Vetro 33cl
+   - `kinley.jpg` - Kinley Lemon o Tonica 33cl
+   - `the-freddo.jpg` - Thè alla Pesca o al Limone 33cl
+   - `caffe.jpg` - Caffè
+   - `caffe-decaffeinato.jpg` - Caffè Decaffeinato
+   - `amari.jpg` - Amari
+   - `amari-speciali.jpg` - Amari Speciali
+   - `amaro-magnaroma.jpg` - Amaro Magna Romā
+   - `distillati.jpg` - Distillati
+   - `aperol-spritz.jpg` - Aperol Spritz
+   - `spritz-magnaroma.jpg` - Spritz Magna Romā
 
 3. **Carica le foto**
    
