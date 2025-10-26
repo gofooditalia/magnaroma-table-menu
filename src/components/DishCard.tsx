@@ -73,8 +73,8 @@ export default function DishCard({ dish }: DishCardProps) {
           }}
         />
         {/* Price badge */}
-        <div className="absolute top-4 right-4 bg-gradient-to-r from-[#D4AF37] to-[#C4A037] text-white px-4 py-2 rounded-full shadow-lg backdrop-blur-sm">
-          <span className="font-bold text-lg">€{dish.price}</span>
+        <div className="absolute top-4 right-4 bg-gradient-to-r from-[#D4AF37] to-[#C4A037] text-white px-3 py-1.5 rounded-full shadow-lg backdrop-blur-sm">
+          <span className="font-bold text-base">€{dish.price}</span>
         </div>
         
         {/* Badge glutine quando filtro attivo */}
