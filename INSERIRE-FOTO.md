@@ -25,8 +25,8 @@
    - `baccala-pastella.jpg` - Filetti di Baccalà in Pastella
    - `polpette-sugo-giannone.jpg` - Polpette al Sugo alla Giannone
    - `solo-fiori.jpg` - Solo Fiori
-   - `carciofi-romana.jpg` - Carciofi alla Romana
-   - `carciofo-giudia.jpg` - Carciofo alla Giudia
+   - `carciofi-romana.jpg` - Carciofi alla Romana ⚠️ **Fuori stagione** (mostra placeholder automaticamente)
+   - `carciofo-giudia.jpg` - Carciofo alla Giudia ⚠️ **Fuori stagione** (mostra placeholder automaticamente)
    - `carpaccio-manzo.jpg` - Carpaccio di Manzo
    - `sformato-melanzane.jpg` - Sformato di Melanzane
    - `puntarelle-romana.jpg` - Puntarelle alla Romana
@@ -155,7 +155,9 @@
    public/images/dishes/
    ```
    
-   **Nota**: I piatti senza immagine mostreranno automaticamente l'icona del Colosseo come placeholder fino a quando non caricherai la foto corrispondente.
+   **Nota**: 
+   - I piatti senza immagine mostreranno automaticamente l'icona del Colosseo come placeholder fino a quando non caricherai la foto corrispondente.
+   - I piatti stagionali (Carciofi alla Romana e Carciofo alla Giudia) mostreranno automaticamente un placeholder "Fuori stagione" anche se la foto è presente, per indicare che sono disponibili solo nel periodo stagionale.
 
 4. **Verifica**
    
